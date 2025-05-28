@@ -14,8 +14,6 @@
     <a href="#tổng-quan">Tổng quan</a> •
     <a href="#cấu-trúc-dự-án">Cấu trúc dự án</a> •
     <a href="#hướng-dẫn-sử-dụng">Hướng dẫn sử dụng</a> •
-    <a href="#đóng-góp">Đóng góp</a> •
-    <a href="#liên-hệ">Liên hệ</a>
   </p>
 
   ---
