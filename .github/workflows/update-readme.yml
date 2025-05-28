@@ -19,7 +19,7 @@ jobs:
 
       - name: Run script to fetch traffic and update README
         env:
-          GH_TOKEN: ${{ secrets.TRAFFIC_ACTION_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           # Ở đây bạn sẽ gọi một script Python hoặc một action khác
           # để lấy dữ liệu traffic và cập nhật README.
