@@ -47,3 +47,7 @@ Mỗi bài giải/dự án được tổ chức trong một thư mục riêng bi
 3.  **Chạy tổng hợp, cài đặt và mô phỏng** Mở file `.ise` hoặc file `.xise`.
 
 <br>
+
+<div align="center">
+  <p>Cảm ơn bạn đã ghé thăm! Hy vọng repo này hữu ích cho việc học tập và nghiên cứu của bạn. 😊</p>
+</div>
