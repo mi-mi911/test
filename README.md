@@ -4,9 +4,9 @@
   <p>Cung cấp mã nguồn VHDL/Verilog và files dự án Xilinx đầy đủ.</p>
 
   <p>
-    <img src="https://img.shields.io/badge/Thi%E1%BA%BFt%20k%E1%BA%BF-ASIC%2FFPGA-blueviolet?style=for-the-badge&logo=lattice&logoColor=white" alt="FPGA Badge">
-    <img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-VHDL%2FVerilog-red?style=for-the-badge&logo=vhdl&logoColor=white" alt="Verilog Badge">
-    <img src="https://img.shields.io/badge/Ph%E1%BA%A7n%20m%E1%BB%81m-Xilinx%20Vivado-green?style=for-the-badge&logo=xilinx&logoColor=white" alt="Xilinx Badge">
+    <img src="https://img.shields.io/badge/Thi%E1%BA%BFt%20k%E1%BA%BF-FPGA-blueviolet?style=for-the-badge&logo=lattice&logoColor=white" alt="FPGA Badge">
+    <img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-Verilog-red?style=for-the-badge&logo=vhdl&logoColor=white" alt="Verilog Badge">
+    <img src="https://img.shields.io/badge/Ph%E1%BA%A7n%20m%E1%BB%81m-Xilinx-green?style=for-the-badge&logo=xilinx&logoColor=white" alt="Xilinx Badge">
   </p>
 
   ---
@@ -22,7 +22,7 @@
 
 <br>
 
-## <span style="color:#20B2AA;">🎯 Về Dự án</span>
+## <span style="color:#20B2AA;">🎯 Tổng quan</span>
 
 Chào mừng bạn đến với kho lưu trữ **`Thuc_tap_Thiet_ke_he_thong_va_vi_mach_tich_hop`**!
 
