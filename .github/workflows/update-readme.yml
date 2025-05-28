@@ -21,7 +21,22 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          # Ở đây bạn sẽ gọi một script Python hoặc một action khác
+          - name: Set up Python
+            uses: actions/setup-python@v5
+            with:
+              python-version: '3.x'
+
+          - name: Install dependencies
+            run: |
+              pip install requests # hoặc pip install PyGithub
+
+          - name: Run script to fetch traffic and update README
+            env:
+              GH_TOKEN: ${{ secrets.GH_TOKEN }} # Truyền token vào biến môi trường cho script Python
+              REPO_OWNER: 'mi-mi911' # Thay thế bằng tên người dùng/tổ chức của bạn
+              REPO_NAME: 'test'    # Thay thế bằng tên repo của bạn
+            run: |
+              python .github/scripts/update_readme.py # Đường dẫn đến script Python của bạn
           # để lấy dữ liệu traffic và cập nhật README.
           # Ví dụ: python your_script.py
           # (Bạn sẽ cần tự viết your_script.py hoặc tìm một action phù hợp)
