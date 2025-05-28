@@ -49,12 +49,23 @@ try:
         readme_content = f.read()
 
     # Định dạng chuỗi để chèn vào README
-    stats_string = f"""
-  # Sử dụng biểu thức chính quy để tìm và thay thế nội dung giữa các comment
+    # SỬA LỖI TẠI ĐÂY: Đảm bảo f-string được đóng đúng cách và nội dung được định dạng đúng.
+    stats_string = (
+        "\n"
+        "### 📊 Thống kê Kho lưu trữ\n"
+        "\n"
+        "| Loại         | Tổng cộng | Duy nhất |\n"
+        "| :----------- | :--------: | :-------: |\n"
+        f"| **Lượt xem** | {total_views}   | {unique_views}  |\n"
+        f"| **Lượt clone**| {total_clones}   | {unique_clones}  |\n"
+    )
+
+
+    # Sử dụng biểu thức chính quy để tìm và thay thế nội dung giữa các comment
     # Đảm bảo các thẻ và có trong README.md
     updated_content = re.sub(
         r'().*?()',
-        f'\\1\n{stats_string}\n\\2',
+        f'\\1{stats_string}\\2', # Đã loại bỏ một số ký tự xuống dòng thừa
         readme_content,
         flags=re.DOTALL | re.IGNORECASE
     )
@@ -70,5 +81,3 @@ except FileNotFoundError:
 except Exception as e:
     print(f"Đã xảy ra lỗi khi cập nhật README: {e}")
     exit(1)
-
-```
