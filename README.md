@@ -21,18 +21,17 @@
 
 ## 🚀 Tổng quan
 
-Chào mừng bạn đến với kho lưu trữ **Giai_de_VXL_SPKT** của Đại học Sư phạm Kỹ thuật TP.HCM
+Chào mừng bạn đến với kho lưu trữ **Giai_de_VXL_SPKT**
 
-Repo này được tạo ra nhằm mục đích tổng hợp và chia sẻ các bài giải đề thi, bài tập thực hành liên quan đến vi điều khiển PIC16F887 trong môn học Vi Xử Lý tại SPKT. Mỗi bài giải đều đi kèm với:
+Repo này được tạo ra nhằm mục đích tổng hợp và chia sẻ các bài giải đề thi liên quan đến vi điều khiển PIC16F887 trong môn học Vi Xử Lý. Mỗi bài giải đều đi kèm với:
 
-* **Mã nguồn CCS C:** Code được viết rõ ràng, có chú thích chi tiết và tuân thủ các yêu cầu của đề bài.
-* **File mô phỏng Proteus:** Sơ đồ mạch điện tử hoàn chỉnh, sẵn sàng để mô phỏng và kiểm tra các chức năng của chương trình.
-
-Mình mong rằng đây sẽ là nguồn tài liệu hữu ích cho các bạn sinh viên SPKT và bất kỳ ai đang học tập, nghiên cứu về PIC16F887.
+* **Mã nguồn CCS C:** Code được viết rõ ràng, có chú thích chi tiết.
+* **File mô phỏng Proteus:** Sơ đồ mạch điện tử hoàn chỉnh, sẵn sàng để mô phỏng.
 
 ## 📁 Cấu trúc Dự án
 
-Mỗi bài giải đề thi/bài tập được tổ chức trong một thư mục riêng biệt, đặt tên theo cấu trúc rõ ràng (ví dụ: `Giai_de_vxl_hk2_22`, `Cau1,2,3`).
+Mỗi bài giải được tổ chức trong một thư mục riêng biệt, đặt tên theo cấu trúc rõ ràng (ví dụ: `Giai_de_vxl_hk2_22`, `Cau1,2,3`).
+
 ## 🛠️ Hướng dẫn Sử dụng
 
 Để sử dụng các bài giải trong kho lưu trữ này, bạn cần có:
