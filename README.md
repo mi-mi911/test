@@ -1,7 +1,7 @@
 <div align="center">
   <h2><span style="color:#20B2AA;">🚀 THỰC TẬP THIẾT KẾ HỆ THỐNG & VI MẠCH TÍCH HỢP 🚀</span></h2>
   <p>💡Tổng hợp các bài giải thực hành môn Thiết kế Hệ thống & Vi mạch Tích hợp.</p>
-  <p>Cung cấp mã nguồn VHDL/Verilog và files dự án Xilinx đầy đủ.</p>
+  <p>Cung cấp mã nguồn Verilog đầy đủ.</p>
 
   <p>
     <img src="https://img.shields.io/badge/Thi%E1%BA%BFt%20k%E1%BA%BF-FPGA-blueviolet?style=for-the-badge&logo=lattice&logoColor=white" alt="FPGA Badge">
