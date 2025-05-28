@@ -44,7 +44,6 @@ Mỗi bài giải/dự án được tổ chức trong một thư mục riêng bi
     git clone https://github.com/LucPac/Thuc_tap_Thiet_ke_he_thong_va_vi_mach_tich_hop.git
     ```
 2.  **Mở thư mục dự án mong muốn** (ví dụ: `Bai_thuc_hanh_so_1`).
-3.  **Chạy tổng hợp, cài đặt và mô phỏng** 
-    * Đối với `ISE`: Mở file `.ise` hoặc file `.xise`.
+3.  **Chạy tổng hợp, cài đặt và mô phỏng** Mở file `.ise` hoặc file `.xise`.
 
 <br>
