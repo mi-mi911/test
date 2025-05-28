@@ -1,0 +1,14 @@
+name: Repository Traffic
+on:
+  schedule:
+    - cron: "55 23 * * 1"
+  workflow_dispatch:
+
+jobs:
+  traffic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Traffic
+        uses: wumphlett/repostats@v2.1.0
+        env:
+          TRAFFIC_ACTION_TOKEN: ${{ secrets.TRAFFIC_ACTION_TOKEN }}
