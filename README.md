@@ -1,8 +1,4 @@
 <div align="center">
-  <img src="assets/images/banner_tds_vimach.png" alt="Banner Thiết Kế Hệ Thống & Vi Mạch Tích Hợp" style="max-width:100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-
-  <br>
-
   <h1><span style="color:#20B2AA;">🚀 THỰC TẬP THIẾT KẾ HỆ THỐNG & VI MẠCH TÍCH HỢP 🚀</span></h1>
   <p><span style="color:#4682B4;">💡 Bài Tập & Dự Án Xilinx Vivado/ISE - SPKT</span></p>
   <p>Tổng hợp các bài giải, dự án thực hành môn Thiết kế Hệ thống & Vi mạch Tích hợp.</p>
@@ -63,37 +59,3 @@ Mục tiêu của kho lưu trữ này là cung cấp một nguồn tài liệu t
 ## <span style="color:#FF6347;">📁 Cấu trúc Dự án</span>
 
 Mỗi bài giải/dự án được tổ chức trong một thư mục riêng biệt, đặt tên theo cấu trúc rõ ràng và dễ hiểu.
-<br>
-
-## <span style="color:#FFD700;">🛠️ Hướng dẫn Sử dụng</span>
-
-Để mở, biên dịch và mô phỏng các dự án trong kho lưu trữ này, bạn cần cài đặt **Xilinx Vivado Design Suite** hoặc **Xilinx ISE Design Suite** (tùy thuộc vào phiên bản dự án).
-
-**Các bước cơ bản:**
-
-1.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn:
-    ```bash
-    git clone [https://github.com/LucPac/Thuc_tap_Thiet_ke_he_thong_va_vi_mach_tich_hop.git](https://github.com/LucPac/Thuc_tap_Thiet_ke_he_thong_va_vi_mach_tich_hop.git)
-    ```
-2.  **Mở thư mục dự án mong muốn** (ví dụ: `BaiTap_Dem_Xung_FPGA`).
-3.  **Mở file dự án Xilinx** (ví dụ: `.xpr` cho Vivado hoặc `.ise` cho ISE) bằng phần mềm Xilinx tương ứng.
-4.  **Chạy tổng hợp, cài đặt và mô phỏng** theo hướng dẫn của Xilinx hoặc tài liệu đi kèm trong thư mục dự án (nếu có).
-    * Đối với `Vivado`: Mở file `.xpr`.
-    * Đối với `ISE`: Mở file `.ise` hoặc file `.xise`.
-
-<br>
-
-## <span style="color:#6A5ACD;">📸 Ảnh minh họa / Demo</span>
-
-*(Phần này là nơi bạn có thể làm repo của mình nổi bật nhất! Hãy thêm các ảnh chụp màn hình chất lượng cao hoặc GIF động về các mạch FPGA/ASIC đang mô phỏng, kết quả từ Xilinx Vivado/ISE, hoặc sơ đồ khối thiết kế. Điều này sẽ giúp người xem dễ hình dung và đánh giá cao công việc của bạn.)*
-
-```markdown
-### Ví dụ: Bộ đếm BCD đồng bộ
-
-![Demo Bộ Đếm BCD](assets/images/bcd_counter_demo.gif)
-_Kết quả mô phỏng bộ đếm BCD đồng bộ trong Xilinx Vivado_
-
-### Ví dụ: Giao tiếp UART
-
-![Demo UART](assets/images/uart_waveform.png)
-_Sơ đồ khối và dạng sóng mô phỏng giao tiếp UART_
