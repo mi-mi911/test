@@ -1,0 +1,46 @@
+name: Update README with Traffic Stats
+
+on:
+  schedule:
+    # Chạy workflow mỗi 6 giờ. Bạn có thể thay đổi để phù hợp với nhu cầu.
+    # Ví dụ: '0 */6 * * *' (Mỗi 6 giờ)
+    #       '0 0 * * *' (Mỗi ngày vào lúc 00:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Cho phép chạy thủ công từ tab Actions
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Cấp quyền ghi vào kho lưu trữ cho workflow này
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Action để lấy mã nguồn của repo
+
+      - name: Set up Python
+        uses: actions/setup-python@v5 # Action để cài đặt Python
+        with:
+          python-version: '3.x' # Sử dụng phiên bản Python 3 mới nhất
+
+      - name: Install Python dependencies
+        run: |
+          pip install requests # Cài đặt thư viện requests để gọi API
+
+      - name: Run Python script to update README
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} # Truyền Personal Access Token
+          # Thay thế 'mi-mi911' bằng tên người dùng/tổ chức GitHub của bạn
+          REPO_OWNER: 'mi-mi911'
+          # Thay thế 'test' bằng tên kho lưu trữ của bạn
+          REPO_NAME: 'test'
+        run: |
+          python .github/scripts/update_readme.py # Chạy script Python
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md # Chỉ thêm file README.md
+          git commit -m "📊 Update traffic stats in README" || echo "No changes to commit"
+          git push
