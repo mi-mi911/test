@@ -1,6 +1,10 @@
 <div align="center">
+  <img src="assets/images/banner_tds_vimach.png" alt="Banner Thiết Kế Hệ Thống & Vi Mạch Tích Hợp" style="max-width:100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+
+  <br>
+
   <h1><span style="color:#20B2AA;">🚀 THỰC TẬP THIẾT KẾ HỆ THỐNG & VI MẠCH TÍCH HỢP 🚀</span></h1>
-  <h3><span style="color:#4682B4;">💡 Bài Tập & Dự Án Xilinx Vivado/ISE - SPKT</span></h3>
+  <p><span style="color:#4682B4;">💡 Bài Tập & Dự Án Xilinx Vivado/ISE - SPKT</span></p>
   <p>Tổng hợp các bài giải, dự án thực hành môn Thiết kế Hệ thống & Vi mạch Tích hợp.</p>
   <p>Cung cấp mã nguồn VHDL/Verilog và files dự án Xilinx đầy đủ.</p>
 
