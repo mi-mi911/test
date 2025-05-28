@@ -1,88 +1,78 @@
 <div align="center">
-  <img src="https://via.placeholder.com/1200x250?text=VI+XU+LY+PIC16F887+-+SPKT" alt="Banner Vi Xử Lý SPKT" style="max-width:100%;">
-  
-  <h1>🚀 KHÁM PHÁ THẾ GIỚI VI XỬ LÝ CÙNG PIC16F887 🚀</h1>
-  <p>💡 Kho lưu trữ toàn diện các giải pháp đề thi và bài tập môn Vi Xử Lý tại Đại học Sư phạm Kỹ thuật TP.HCM (SPKT).</p>
-  <p>✨ Cung cấp mã nguồn CCS C và mô phỏng mạch Proteus chi tiết cho từng bài giải ✨</p>
+  <h1>✨ Giải Đề Thi Vi Xử Lý (PIC16F887) - SPKT ✨</h1>
+  <p>💡 Kho lưu trữ tổng hợp các giải pháp đề thi và bài tập môn Vi Xử Lý tại SPKT, tập trung vào vi điều khiển PIC16F887.</p>
+  <p>Cung cấp mã nguồn CCS C và mô phỏng mạch Proteus cho từng bài giải.</p>
 
-  <p>
-    <img src="https://img.shields.io/badge/Vi%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n-PIC16F887-brightgreen?style=for-the-badge&logo=microchip&logoColor=white" alt="PIC16F887 Badge">
-    <img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-CCS%20C-blue?style=for-the-badge&logo=c&logoColor=white" alt="CCS C Badge">
-    <img src="https://img.shields.io/badge/M%C3%B4%20ph%E1%BB%8Fng-Proteus-orange?style=for-the-badge&logo=proteus&logoColor=white" alt="Proteus Badge">
-    <img src="https://img.shields.io/badge/Tr%C6%B0%E1%BB%9Dng-%C4%90H%20SPKT-red?style=for-the-badge&logo=university&logoColor=white" alt="SPKT Badge">
-    <img src="https://img.shields.io/github/stars/LucPac/Giai_de_VXL_SPKT?style=for-the-badge&color=gold&logo=github" alt="Stars">
-    <img src="https://img.shields.io/github/forks/LucPac/Giai_de_VXL_SPKT?style=for-the-badge&color=lightblue&logo=github" alt="Forks">
-  </p>
+  <img src="https://img.shields.io/badge/Vi%20x%E1%BB%AD%20l%C3%BD-PIC16F887-brightgreen?style=for-the-badge&logo=microchip&logoColor=white" alt="PIC16F887 Badge">
+  <img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-CCS%20C-blue?style=for-the-badge&logo=c&logoColor=white" alt="CCS C Badge">
+  <img src="https://img.shields.io/badge/M%C3%B4%20ph%E1%BB%8Fng-Proteus-orange?style=for-the-badge&logo=proteus&logoColor=white" alt="Proteus Badge">
+  <img src="https://img.shields.io/badge/Tr%C6%B0%E1%BB%9Dng-SPKT-red?style=for-the-badge&logo=university&logoColor=white" alt="SPKT Badge">
 
   ---
 
   <p>
-    <a href="#về-dự-án">Tổng quan</a> •
-    <a href="#điểm-nổi-bật">Điểm nổi bật</a> •
+    <a href="#tổng-quan">Tổng quan</a> •
     <a href="#cấu-trúc-dự-án">Cấu trúc dự án</a> •
     <a href="#hướng-dẫn-sử-dụng">Hướng dẫn sử dụng</a> •
-    <a href="#ảnh-minh-họa-demo">Ảnh minh họa/Demo</a> •
     <a href="#đóng-góp">Đóng góp</a> •
-    <a href="#thống-kê-kho-lưu-trữ">Thống kê</a> •
     <a href="#liên-hệ">Liên hệ</a>
   </p>
 
   ---
 </div>
 
-## 🎯 Về Dự án
+## 🚀 Tổng quan
 
-Kho lưu trữ **Giải Đề Thi Vi Xử Lý PIC16F887** này là một bộ sưu tập toàn diện các giải pháp cho các đề thi và bài tập thực hành môn Vi Xử Lý, đặc biệt tập trung vào vi điều khiển PIC16F887. Dự án được phát triển nhằm hỗ trợ sinh viên Đại học Sư phạm Kỹ thuật TP.HCM (SPKT) và cộng đồng yêu thích vi điều khiển.
+Chào mừng bạn đến với kho lưu trữ **Giải Đề Thi Vi Xử Lý PIC16F887** của Đại học Sư phạm Kỹ thuật TP.HCM (SPKT)!
 
-Mỗi bài giải không chỉ cung cấp đáp án mà còn đi sâu vào chi tiết với:
+Repo này được tạo ra nhằm mục đích tổng hợp và chia sẻ các bài giải đề thi, bài tập thực hành liên quan đến vi điều khiển PIC16F887 trong khuôn khổ môn học Vi Xử Lý tại SPKT. Mỗi bài giải đều đi kèm với:
 
-* **Mã nguồn CCS C:** Code được viết chuẩn mực, có chú thích chi tiết từng dòng, dễ hiểu và dễ tái sử dụng.
-* **File mô phỏng Proteus:** Sơ đồ mạch điện tử mô phỏng hoàn chỉnh, giúp bạn dễ dàng kiểm tra chức năng, phân tích hoạt động mà không cần phần cứng.
+* **Mã nguồn CCS C:** Code được viết rõ ràng, có chú thích chi tiết và tuân thủ các yêu cầu của đề bài.
+* **File mô phỏng Proteus:** Sơ đồ mạch điện tử hoàn chỉnh, sẵn sàng để mô phỏng và kiểm tra các chức năng của chương trình.
 
-Đây là nguồn tài liệu lý tưởng để củng cố kiến thức, luyện tập kỹ năng lập trình và thiết kế mạch với PIC16F887.
-
-## ✨ Điểm nổi bật
-
-* **Giải pháp toàn diện:** Từ lập trình CCS C đến mô phỏng Proteus, cung cấp cái nhìn tổng quan.
-* **Đề thi thực tế:** Các bài giải dựa trên đề thi thật, giúp bạn làm quen với định dạng và mức độ khó của các bài kiểm tra.
-* **Mã nguồn rõ ràng:** Dễ đọc, dễ hiểu, tối ưu và có chú thích chi tiết.
-* **Mô phỏng sẵn sàng:** Chỉ cần mở file Proteus và chạy, không cần cài đặt phức tạp.
-* **Cập nhật thường xuyên:** Thêm các bài giải mới và cải thiện các bài giải hiện có.
+Đây là nguồn tài liệu hữu ích cho các bạn sinh viên SPKT và bất kỳ ai đang học tập, nghiên cứu về PIC16F887.
 
 ## 📁 Cấu trúc Dự án
 
 Mỗi bài giải đề thi/bài tập được tổ chức trong một thư mục riêng biệt, đặt tên theo cấu trúc rõ ràng (ví dụ: `DeThi_HK1_Nam2023_Bai1`, `BaiTap_Chuong3_LCD`).
 ## 🛠️ Hướng dẫn Sử dụng
 
-Để khám phá các bài giải trong kho lưu trữ này, bạn cần chuẩn bị môi trường sau:
+Để sử dụng các bài giải trong kho lưu trữ này, bạn cần có:
 
-1.  **Phần mềm lập trình CCS C Compiler:** Để mở và biên dịch mã nguồn `.c`.
-2.  **Phần mềm mô phỏng Proteus Design Suite (ISIS/ARES):** Để mở và chạy các file mô phỏng mạch `.pdsprj`.
+1.  **Phần mềm lập trình CCS C Compiler:** Để mở và chỉnh sửa mã nguồn `.c`.
+2.  **Phần mềm mô phỏng Proteus ISIS (hoặc Proteus Design Suite):** Để mở và chạy các file mô phỏng mạch `.pdsprj`.
 
-**Các bước thực hiện:**
+**Các bước cơ bản:**
 
-1.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn:
+1.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn.
     ```bash
     git clone [https://github.com/LucPac/Giai_de_VXL_SPKT.git](https://github.com/LucPac/Giai_de_VXL_SPKT.git)
     ```
 2.  **Mở thư mục bài giải mong muốn** (ví dụ: `DeThi_HK1_Nam2023_Bai1`).
-3.  **Mở file `.pdsprj` bằng Proteus** để xem sơ đồ mạch, kết nối linh kiện và bắt đầu mô phỏng ngay lập tức.
-4.  **Mở file `.c` bằng CCS C Compiler** để xem, phân tích mã nguồn hoặc biên dịch lại theo ý muốn.
-5.  **Nạp file `.hex`** (nếu có) vào chip PIC16F887 trong Proteus để mô phỏng hoàn chỉnh.
+3.  **Mở file `.pdsprj` bằng Proteus** để xem sơ đồ mạch và bắt đầu mô phỏng.
+4.  **Mở file `.c` bằng CCS C Compiler** để xem mã nguồn, biên dịch lại nếu cần, hoặc nạp vào chip thật.
 
-## 📸 Ảnh minh họa / Demo
+## 🤝 Đóng góp
 
-*(Phần này bạn hãy thêm các ảnh chụp màn hình hoặc GIF động về mạch đang chạy trong Proteus. Điều này sẽ làm README của bạn cực kỳ ấn tượng!)*
+Mọi đóng góp để làm phong phú thêm kho tài nguyên này đều được hoan nghênh! Nếu bạn có các bài giải đề thi, bài tập hay, hoặc muốn cải thiện các bài giải hiện có, vui lòng:
 
-Ví dụ:
+1.  **Fork** kho lưu trữ này.
+2.  **Tạo một branch mới** cho tính năng/bài giải của bạn (`git checkout -b feature/your-awesome-solution`).
+3.  **Thực hiện thay đổi** và đảm bảo code/mạch của bạn hoạt động tốt.
+4.  **Ghi chú thích rõ ràng** trong code và mô tả chi tiết trong `README.md` của thư mục bài giải đó.
+5.  **Tạo một Pull Request** mô tả chi tiết những gì bạn đã đóng góp.
 
-```markdown
-### Demo Bài giải 1: Điều khiển LED 7 đoạn
+## 📈 Thống kê Kho lưu trữ
 
-![Demo LED 7 đoạn](assets/images/led7doan_demo.gif)
-_Mô phỏng mạch điều khiển LED 7 đoạn trong Proteus_
+## 📧 Liên hệ
 
-### Demo Bài giải 2: Giao tiếp LCD
+Nếu có bất kỳ câu hỏi, góp ý hoặc cần hỗ trợ, đừng ngần ngại liên hệ với tôi qua:
 
-![Demo LCD](assets/images/lcd_demo.png)
-_Sơ đồ mạch và kết quả hiển thị trên LCD_
+* **GitHub Issues:** Mở một Issue trực tiếp trên repo này.
+* **Email:** your.email@example.com (Thay thế bằng email cá nhân hoặc email học thuật của bạn)
+
+---
+
+<div align="center">
+  <p>Cảm ơn bạn đã ghé thăm! Hy vọng repo này hữu ích cho việc học tập và nghiên cứu của bạn. 😊</p>
+</div>
