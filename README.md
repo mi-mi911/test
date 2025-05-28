@@ -23,18 +23,18 @@
 
 ## 🚀 Tổng quan
 
-Chào mừng bạn đến với kho lưu trữ **Giải Đề Thi Vi Xử Lý PIC16F887** của Đại học Sư phạm Kỹ thuật TP.HCM (SPKT)!
+Chào mừng bạn đến với kho lưu trữ **Giai_de_VXL_SPKT** của Đại học Sư phạm Kỹ thuật TP.HCM
 
-Repo này được tạo ra nhằm mục đích tổng hợp và chia sẻ các bài giải đề thi, bài tập thực hành liên quan đến vi điều khiển PIC16F887 trong khuôn khổ môn học Vi Xử Lý tại SPKT. Mỗi bài giải đều đi kèm với:
+Repo này được tạo ra nhằm mục đích tổng hợp và chia sẻ các bài giải đề thi, bài tập thực hành liên quan đến vi điều khiển PIC16F887 trong môn học Vi Xử Lý tại SPKT. Mỗi bài giải đều đi kèm với:
 
 * **Mã nguồn CCS C:** Code được viết rõ ràng, có chú thích chi tiết và tuân thủ các yêu cầu của đề bài.
 * **File mô phỏng Proteus:** Sơ đồ mạch điện tử hoàn chỉnh, sẵn sàng để mô phỏng và kiểm tra các chức năng của chương trình.
 
-Đây là nguồn tài liệu hữu ích cho các bạn sinh viên SPKT và bất kỳ ai đang học tập, nghiên cứu về PIC16F887.
+Mình mong rằng đây sẽ là nguồn tài liệu hữu ích cho các bạn sinh viên SPKT và bất kỳ ai đang học tập, nghiên cứu về PIC16F887.
 
 ## 📁 Cấu trúc Dự án
 
-Mỗi bài giải đề thi/bài tập được tổ chức trong một thư mục riêng biệt, đặt tên theo cấu trúc rõ ràng (ví dụ: `DeThi_HK1_Nam2023_Bai1`, `BaiTap_Chuong3_LCD`).
+Mỗi bài giải đề thi/bài tập được tổ chức trong một thư mục riêng biệt, đặt tên theo cấu trúc rõ ràng (ví dụ: `Giai_de_vxl_hk2_22`, `Cau1,2,3`).
 ## 🛠️ Hướng dẫn Sử dụng
 
 Để sử dụng các bài giải trong kho lưu trữ này, bạn cần có:
@@ -46,30 +46,11 @@ Mỗi bài giải đề thi/bài tập được tổ chức trong một thư m�
 
 1.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn.
     ```bash
-    git clone [https://github.com/LucPac/Giai_de_VXL_SPKT.git](https://github.com/LucPac/Giai_de_VXL_SPKT.git)
+    git clone https://github.com/LucPac/Giai_de_VXL_SPKT.git
     ```
-2.  **Mở thư mục bài giải mong muốn** (ví dụ: `DeThi_HK1_Nam2023_Bai1`).
+2.  **Mở thư mục bài giải mong muốn** (ví dụ: `Giai_de_vxl_hk2_22`).
 3.  **Mở file `.pdsprj` bằng Proteus** để xem sơ đồ mạch và bắt đầu mô phỏng.
 4.  **Mở file `.c` bằng CCS C Compiler** để xem mã nguồn, biên dịch lại nếu cần, hoặc nạp vào chip thật.
-
-## 🤝 Đóng góp
-
-Mọi đóng góp để làm phong phú thêm kho tài nguyên này đều được hoan nghênh! Nếu bạn có các bài giải đề thi, bài tập hay, hoặc muốn cải thiện các bài giải hiện có, vui lòng:
-
-1.  **Fork** kho lưu trữ này.
-2.  **Tạo một branch mới** cho tính năng/bài giải của bạn (`git checkout -b feature/your-awesome-solution`).
-3.  **Thực hiện thay đổi** và đảm bảo code/mạch của bạn hoạt động tốt.
-4.  **Ghi chú thích rõ ràng** trong code và mô tả chi tiết trong `README.md` của thư mục bài giải đó.
-5.  **Tạo một Pull Request** mô tả chi tiết những gì bạn đã đóng góp.
-
-## 📈 Thống kê Kho lưu trữ
-
-## 📧 Liên hệ
-
-Nếu có bất kỳ câu hỏi, góp ý hoặc cần hỗ trợ, đừng ngần ngại liên hệ với tôi qua:
-
-* **GitHub Issues:** Mở một Issue trực tiếp trên repo này.
-* **Email:** your.email@example.com (Thay thế bằng email cá nhân hoặc email học thuật của bạn)
 
 ---
 
