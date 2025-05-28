@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><span style="color:#20B2AA; font-size: 15px;">🚀 THỰC TẬP THIẾT KẾ HỆ THỐNG & VI MẠCH TÍCH HỢP 🚀</span></h1>
+  <h1><span style="color:#20B2AA; font-size: 9px;">🚀 THỰC TẬP THIẾT KẾ HỆ THỐNG & VI MẠCH TÍCH HỢP 🚀</span></h1>
   <p><span style="color:#4682B4;">💡 Bài Tập & Dự Án Xilinx Vivado/ISE - SPKT</span></p>
   <p>Tổng hợp các bài giải, dự án thực hành môn Thiết kế Hệ thống & Vi mạch Tích hợp.</p>
   <p>Cung cấp mã nguồn VHDL/Verilog và files dự án Xilinx đầy đủ.</p>
