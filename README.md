@@ -1,53 +1,66 @@
 <div align="center">
-  <h1><span style="color:#20B2AA;">🚀 THỰC TẬP THIẾT KẾ HỆ THỐNG & VI MẠCH TÍCH HỢP 🚀</span></h1>
-  <h3><span style="color:#4682B4;">💡 Bài Tập & Dự Án Xilinx Vivado/ISE - SPKT</span></h3>
+  <h1>✨ Giải Đề Thi Vi Xử Lý (PIC16F887) - SPKT ✨</h1>
+  <p>💡 Kho lưu trữ tổng hợp các giải pháp đề thi và bài tập môn Vi Xử Lý tại SPKT, tập trung vào vi điều khiển PIC16F887.</p>
+  <p>Cung cấp mã nguồn CCS C và mô phỏng mạch Proteus cho từng bài giải.</p>
 
   <p>
-    <img src="https://img.shields.io/badge/Thi%E1%BA%BFt%20k%E1%BA%BF-ASIC%2FFPGA-blueviolet?style=for-the-badge&logo=lattice&logoColor=white" alt="ASIC/FPGA Badge">
-    <img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-VHDL%2FVerilog-red?style=for-the-badge&logo=vhdl&logoColor=white" alt="VHDL/Verilog Badge">
-    <img src="https://img.shields.io/badge/Ph%E1%BA%A7n%20m%E1%BB%81m-Xilinx%20Vivado-green?style=for-the-badge&logo=xilinx&logoColor=white" alt="Xilinx Vivado Badge">
-    <img src="https://img.shields.io/badge/Tr%C6%B0%E1%BB%9Dng-%C4%90H%20SPKT-red?style=for-the-badge&logo=university&logoColor=white" alt="SPKT Badge">
-    <img src="https://img.shields.io/github/stars/LucPac/Thuc_tap_Thiet_ke_he_thong_va_vi_mach_tich_hop?style=for-the-badge&color=gold&logo=github" alt="GitHub Stars">
-    <img src="https://img.shields.io/github/forks/LucPac/Thuc_tap_Thiet_ke_he_thong_va_vi_mach_tich_hop?style=for-the-badge&color=lightblue&logo=github" alt="GitHub Forks">
-  </p>
+    <img src="https://img.shields.io/badge/Vi%20x%E1%BB%AD%20l%C3%BD-PIC16F887-brightgreen?style=for-the-badge&logo=microchip&logoColor=white" alt="PIC16F887 Badge">
+    <img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-CCS%20C-blue?style=for-the-badge&logo=c&logoColor=white" alt="CCS C Badge">
+    <img src="https://img.shields.io/badge/M%C3%B4%20ph%E1%BB%8Fng-Proteus-orange?style=for-the-badge&logo=proteus&logoColor=white" alt="Proteus Badge">
+    <img src="https://img.shields.io/badge/Tr%C6%B0%E1%BB%9Dng-SPKT-red?style=for-the-badge&logo=university&logoColor=white" alt="SPKT Badge">
+    </p>
 
   ---
 
   <p>
-    <a href="#🎯-về-dự-án">Tổng quan</a> •
-    <a href="#🛠️-hướng-dẫn-sử-dụng">Hướng dẫn</a> •
-    <a href="#📸-demo">Demo</a> •
-    <a href="#🤝-đóng-góp">Đóng góp</a>
-  </p>
+    <a href="#🚀-tổng-quan">Tổng quan</a> •
+    <a href="#📁-cấu-trúc-dự-án">Cấu trúc dự án</a> •
+    <a href="#🛠️-hướng-dẫn-sử-dụng">Hướng dẫn sử dụng</a>
+    </p>
 
   ---
 </div>
 
 <br>
 
-## <span style="color:#20B2AA;">🎯 Về Dự án</span>
+## 🚀 Tổng quan
 
-Repo này tổng hợp các bài giải và dự án thực hành môn **Thiết kế Hệ thống và Vi mạch Tích hợp** tại SPKT. Các dự án chủ yếu dùng **Xilinx Vivado/ISE** với mã nguồn **VHDL/Verilog**. Mục tiêu là cung cấp tài liệu thực tế cho việc học `FPGA/ASIC`.
+Chào mừng bạn đến với kho lưu trữ **`Giai_de_VXL_SPKT`**!
 
-<br>
+Kho lưu trữ này được tạo ra nhằm mục đích tổng hợp và chia sẻ các bài giải đề thi liên quan đến vi điều khiển `PIC16F887` trong môn học `Vi Xử Lý`. Mỗi bài giải đều đi kèm với:
 
-## <span style="color:#FFD700;">🛠️ Hướng dẫn Sử dụng</span>
-
-Để chạy các dự án, bạn cần cài đặt **Xilinx Vivado** hoặc **Xilinx ISE**.
-
-1.  **Clone repo:** `git clone https://github.com/LucPac/Thuc_tap_Thiet_ke_he_thong_va_vi_mach_tich_hop.git`
-2.  **Mở thư mục dự án** mong muốn.
-3.  **Mở file `.xpr` (Vivado) hoặc `.ise` (ISE)** bằng phần mềm Xilinx tương ứng.
-4.  **Thực hiện tổng hợp & mô phỏng.**
+* **Mã nguồn CCS C:** Code được viết rõ ràng, có chú thích chi tiết, giúp bạn dễ dàng hiểu và chỉnh sửa.
+* **File mô phỏng Proteus:** Sơ đồ mạch điện tử hoàn chỉnh, sẵn sàng để mô phỏng và kiểm tra hoạt động.
 
 <br>
 
-## <span style="color:#6A5ACD;">📸 Demo</span>
+## 📁 Cấu trúc Dự án
 
-*(Thêm ảnh/GIF mô phỏng, kết quả từ Xilinx Vivado/ISE tại đây. Rất quan trọng để trực quan hóa dự án của bạn.)*
+Mỗi bài giải được tổ chức trong một thư mục riêng biệt, đặt tên theo cấu trúc rõ ràng và dễ hiểu (ví dụ: `Giai_de_vxl_hk2_22`, `Cau1,2,3`).
 
-```markdown
-### Ví dụ: Bộ đếm BCD đồng bộ
+*(Bạn có thể thêm ví dụ cấu trúc thư mục chi tiết hơn tại đây nếu muốn, ví dụ:)*
+<br>
 
-![Demo Bộ Đếm BCD](assets/images/bcd_counter_demo.gif)
-_Mô phỏng bộ đếm BCD trong Xilinx Vivado_
+## 🛠️ Hướng dẫn Sử dụng
+
+Để sử dụng các bài giải trong kho lưu trữ này, bạn cần cài đặt các phần mềm sau:
+
+1.  **Phần mềm lập trình `CCS C Compiler`:** Dùng để mở, đọc và biên dịch mã nguồn `.c`.
+2.  **Phần mềm mô phỏng `Proteus ISIS` (hoặc `Proteus Design Suite`):** Dùng để mở và chạy các file mô phỏng mạch `.pdsprj`.
+
+**Các bước cơ bản:**
+
+1.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn:
+    ```bash
+    git clone [https://github.com/LucPac/Giai_de_VXL_SPKT.git](https://github.com/LucPac/Giai_de_VXL_SPKT.git)
+    ```
+2.  **Mở thư mục bài giải mong muốn** (ví dụ: `Giai_de_vxl_hk2_22`).
+3.  **Mở file `.pdsprj` bằng Proteus** để xem sơ đồ mạch và bắt đầu mô phỏng.
+4.  **Mở file `.c` bằng CCS C Compiler** để xem mã nguồn, biên dịch lại nếu cần, hoặc nạp vào chip thật (trong Proteus hoặc phần cứng).
+
+---
+
+<div align="center">
+  <br>
+  <p>Cảm ơn bạn đã ghé thăm! Hy vọng repo này hữu ích cho việc học tập và nghiên cứu của bạn. 😊</p>
+  </div>
