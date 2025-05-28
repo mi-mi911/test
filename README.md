@@ -13,37 +13,42 @@
   <p>
     <a href="#tổng-quan">Tổng quan</a> •
     <a href="#cấu-trúc-dự-án">Cấu trúc dự án</a> •
-    <a href="#hướng-dẫn-sử-dụng">Hướng dẫn sử dụng</a> •
-  </p>
+    <a href="#hướng-dẫn-sử-dụng">Hướng dẫn sử dụng</a>
+    </p>
 
   ---
 </div>
 
 ## 🚀 Tổng quan
 
-Chào mừng bạn đến với kho lưu trữ **Giai_de_VXL_SPKT**
+Chào mừng bạn đến với kho lưu trữ **`Giai_de_VXL_SPKT`**!
 
-Repo này được tạo ra nhằm mục đích tổng hợp và chia sẻ các bài giải đề thi liên quan đến vi điều khiển PIC16F887 trong môn học Vi Xử Lý. Mỗi bài giải đều đi kèm với:
+Repo này được tạo ra nhằm mục đích tổng hợp và chia sẻ các bài giải đề thi liên quan đến vi điều khiển `PIC16F887` trong môn học `Vi Xử Lý`. Mỗi bài giải đều đi kèm với:
 
 * **Mã nguồn CCS C:** Code được viết rõ ràng, có chú thích chi tiết.
 * **File mô phỏng Proteus:** Sơ đồ mạch điện tử hoàn chỉnh, sẵn sàng để mô phỏng.
 
+<br>
+
 ## 📁 Cấu trúc Dự án
 
 Mỗi bài giải được tổ chức trong một thư mục riêng biệt, đặt tên theo cấu trúc rõ ràng (ví dụ: `Giai_de_vxl_hk2_22`, `Cau1,2,3`).
+*(Nếu có thể, bạn nên thống nhất một cấu trúc tên thư mục để dễ quản lý, ví dụ: `DeThi_HK2_2022`, `BaiTap_Cau_1_2_3`)*
+
+<br>
 
 ## 🛠️ Hướng dẫn Sử dụng
 
 Để sử dụng các bài giải trong kho lưu trữ này, bạn cần có:
 
-1.  **Phần mềm lập trình CCS C Compiler:** Để mở và chỉnh sửa mã nguồn `.c`.
-2.  **Phần mềm mô phỏng Proteus ISIS (hoặc Proteus Design Suite):** Để mở và chạy các file mô phỏng mạch `.pdsprj`.
+1.  **Phần mềm lập trình `CCS C Compiler`:** Để mở và chỉnh sửa mã nguồn `.c`.
+2.  **Phần mềm mô phỏng `Proteus ISIS` (hoặc `Proteus Design Suite`):** Để mở và chạy các file mô phỏng mạch `.pdsprj`.
 
 **Các bước cơ bản:**
 
-1.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn.
+1.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn:
     ```bash
-    git clone https://github.com/LucPac/Giai_de_VXL_SPKT.git
+    git clone [https://github.com/LucPac/Giai_de_VXL_SPKT.git](https://github.com/LucPac/Giai_de_VXL_SPKT.git)
     ```
 2.  **Mở thư mục bài giải mong muốn** (ví dụ: `Giai_de_vxl_hk2_22`).
 3.  **Mở file `.pdsprj` bằng Proteus** để xem sơ đồ mạch và bắt đầu mô phỏng.
