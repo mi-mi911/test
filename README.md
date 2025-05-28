@@ -35,3 +35,45 @@ Repo này được tạo ra nhằm mục đích tổng hợp và chia sẻ các 
 ## 📁 Cấu trúc Dự án
 
 Mỗi bài giải đề thi/bài tập được tổ chức trong một thư mục riêng biệt, đặt tên theo cấu trúc rõ ràng (ví dụ: `DeThi_HK1_Nam2023_Bai1`, `BaiTap_Chuong3_LCD`).
+
+## 🛠️ Hướng dẫn Sử dụng
+
+Để sử dụng các bài giải trong kho lưu trữ này, bạn cần có:
+
+1.  **Phần mềm lập trình CCS C Compiler:** Để mở và chỉnh sửa mã nguồn `.c`.
+2.  **Phần mềm mô phỏng Proteus ISIS (hoặc Proteus Design Suite):** Để mở và chạy các file mô phỏng mạch `.pdsprj`.
+
+**Các bước cơ bản:**
+
+1.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn.
+    ```bash
+    git clone [https://github.com/LucPac/Giai_de_VXL_SPKT.git](https://github.com/LucPac/Giai_de_VXL_SPKT.git)
+    ```
+2.  **Mở thư mục bài giải mong muốn** (ví dụ: `DeThi_HK1_Nam2023_Bai1`).
+3.  **Mở file `.pdsprj` bằng Proteus** để xem sơ đồ mạch và bắt đầu mô phỏng.
+4.  **Mở file `.c` bằng CCS C Compiler** để xem mã nguồn, biên dịch lại nếu cần, hoặc nạp vào chip thật.
+
+## 🤝 Đóng góp
+
+Mọi đóng góp để làm phong phú thêm kho tài nguyên này đều được hoan nghênh! Nếu bạn có các bài giải đề thi, bài tập hay, hoặc muốn cải thiện các bài giải hiện có, vui lòng:
+
+1.  **Fork** kho lưu trữ này.
+2.  **Tạo một branch mới** cho tính năng/bài giải của bạn (`git checkout -b feature/your-awesome-solution`).
+3.  **Thực hiện thay đổi** và đảm bảo code/mạch của bạn hoạt động tốt.
+4.  **Ghi chú thích rõ ràng** trong code và mô tả chi tiết trong `README.md` của thư mục bài giải đó.
+5.  **Tạo một Pull Request** mô tả chi tiết những gì bạn đã đóng góp.
+
+## 📈 Thống kê Kho lưu trữ
+
+## 📧 Liên hệ
+
+Nếu có bất kỳ câu hỏi, góp ý hoặc cần hỗ trợ, đừng ngần ngại liên hệ với tôi qua:
+
+* **GitHub Issues:** Mở một Issue trực tiếp trên repo này.
+* **Email:** your.email@example.com (Thay thế bằng email cá nhân hoặc email học thuật của bạn)
+
+---
+
+<div align="center">
+  <p>Cảm ơn bạn đã ghé thăm! Hy vọng repo này hữu ích cho việc học tập và nghiên cứu của bạn. 😊</p>
+</div>
