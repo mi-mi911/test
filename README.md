@@ -24,9 +24,9 @@
 
 ## <span style="color:#20B2AA;">🎯 Tổng quan</span>
 
-Chào mừng bạn đến với kho lưu trữ **`Thuc_tap_Thiet_ke_he_thong_va_vi_mach_tich_hop`**!
+Chào mừng bạn đến với kho lưu trữ **`Thuc_tap_Thiet_ke_he_thong_va_vi_mach_tich_hop`**
 
-Kho lưu trữ này là tập hợp các bài giải môn **Thiết kế Hệ thống và Vi mạch Tích hợp**. Các bài tập chủ yếu được thực hiện bằng phần mềm **Xilinx ISE**, sử dụng ngôn ngữ mô tả phần cứng **Verilog**.
+Kho lưu trữ này là tập hợp các bài giải môn **Thực tập Thiết kế Hệ thống và Vi mạch Tích hợp**. Các bài tập chủ yếu được thực hiện bằng phần mềm **Xilinx ISE**, sử dụng ngôn ngữ mô tả phần cứng **Verilog** và chạy trên **Kit FPGA Xilinx Spartan 3E**.
 
 ## <span style="color:#FF6347;">📁 Cấu trúc Dự án</span>
 
