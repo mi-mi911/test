@@ -112,7 +112,7 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 * Giám sát trạng thái: Nhận thông báo về trạng thái đóng/mở của cửa.
 * Cảnh báo an ninh: Nhận cảnh báo khi có sự cố (ví dụ: cửa mở trái phép, nhập sai mật khẩu quá nhiều lần - nếu có tích hợp khóa số).
 * Kết nối Wifi: Sử dụng ESP32 để kết nối với mạng Wifi nhà bạn.
-&lt;br>
+<br>
 
 ---
 
