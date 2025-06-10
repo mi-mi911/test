@@ -43,9 +43,9 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 Để triển khai dự án này, bạn cần có các phần mềm và thành phần phần cứng sau:
 
 ### Yêu cầu phần mềm:
-** VS Code
-** PlatformIO IDE Extension
-** Ứng dụng Blynk (Android/iOS)
+* VS Code
+* PlatformIO IDE Extension
+* Ứng dụng Blynk (Android/iOS)
 
 ### Yêu cầu phần cứng:
 * ESP32
@@ -55,16 +55,16 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 
 ### Các bước cơ bản:
 
-1.  **Cài đặt VS Code và PlatformIO IDE Extension:**
-2.  **Clone hoặc tải về**
+1.  Cài đặt VS Code và PlatformIO IDE Extension
+2.  Clone hoặc tải về
     ```bash
     git clone https://github.com/your-username/ESP32_Smart_door.git
     ```
-3.  **Mở dự án trong VS Code với PlatformIO:**
-4.  **Cấu hình thông tin Blynk và Wifi** (xem phần dưới).
-5.  **Biên dịch và Upload mã nguồn:**
-6.  **Kết nối phần cứng**
-7.  **Thiết lập ứng dụng Blynk**
+3.  Mở dự án trong VS Code với PlatformIO
+4.  Cấu hình thông tin Blynk và Wifi (xem phần dưới).
+5.  Biên dịch và Upload mã nguồn
+6.  Kết nối phần cứng
+7.  Thiết lập ứng dụng Blynk
 
 <br>
 
@@ -90,6 +90,7 @@ Trong file `src/main.cpp` (hoặc một file cấu hình riêng), bạn cần th
 char ssid[] = "YOUR_WIFI_SSID";     // Tên mạng Wifi của bạn
 char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 ```
+
 ### 3. Thiết lập Datastreams và Widgets trên ứng dụng Blynk
 Thiết lập công tắc ảo Control Pass để điều khiển việc cho phép và không cho phép nhập mật khẩu. Thiết lập công tắc ảo Control Door để đóng mở cửa từ xa.
 Bạn cần tạo các Datastreams và widget tương ứng trên ứng dụng Blynk để điều khiển và giám sát cửa:
@@ -97,10 +98,15 @@ Bạn cần tạo các Datastreams và widget tương ứng trên ứng dụng B
 Control Door (ID 1, Pin V0, Kiểu Integer): Dùng cho điều khiển đóng/mở cửa (ví dụ: Button Widget).
 Control Pass (ID 2, Pin V1, Kiểu Integer): Dùng để điều khiển việc cho phép và không cho phép nhập mật khẩu.
 ![Image](https://github.com/user-attachments/assets/fcbd7521-018a-412e-ab2a-13345259e6de)
+
+### 4. Thiết lập Events & Notifications trên Blynk
+* Thiết lập để nhận thông báo khi cửa mở và khi nhập sai mật khẩu quá nhiều lần.
+** door_warning (ID 4, Code door_warning, Loại Warning): Nhận thông báo khi cửa mở.
+** infor_log (ID 5, Code infor_log, Loại Info): Nhận thông báo khi nhập sai mật khẩu quá nhiều lần.
+![Image](https://github.com/user-attachments/assets/4ab1b57e-5ace-4121-b9c9-64a33b7e6cba)
 <br>
 
-
-##💡 Tính năng chính
+## 💡 Tính năng chính
 * Điều khiển từ xa: Đóng/mở cửa thông qua ứng dụng Blynk.
 * Giám sát trạng thái: Nhận thông báo về trạng thái đóng/mở của cửa.
 * Cảnh báo an ninh: Nhận cảnh báo khi có sự cố (ví dụ: cửa mở trái phép, nhập sai mật khẩu quá nhiều lần - nếu có tích hợp khóa số).
