@@ -64,6 +64,7 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 4.  Cấu hình thông tin Blynk và Wifi (xem phần dưới).
 5.  Biên dịch và Upload mã nguồn
 6.  Kết nối phần cứng
+   ![Image](https://github.com/user-attachments/assets/11b66dff-b35e-4c9a-ab23-a85c969d9280)
 7.  Thiết lập ứng dụng Blynk
 
 <br>
@@ -100,9 +101,10 @@ Control Pass (ID 2, Pin V1, Kiểu Integer): Dùng để điều khiển việc 
 ![Image](https://github.com/user-attachments/assets/fcbd7521-018a-412e-ab2a-13345259e6de)
 
 ### 4. Thiết lập Events & Notifications trên Blynk
-* Thiết lập để nhận thông báo khi cửa mở và khi nhập sai mật khẩu quá nhiều lần.
-** door_warning (ID 4, Code door_warning, Loại Warning): Nhận thông báo khi cửa mở.
-** infor_log (ID 5, Code infor_log, Loại Info): Nhận thông báo khi nhập sai mật khẩu quá nhiều lần.
+Thiết lập để nhận thông báo khi cửa mở và khi nhập sai mật khẩu quá nhiều lần.
+  
+door_warning (ID 4, Code door_warning, Loại Warning): Nhận thông báo khi cửa mở.
+infor_log (ID 5, Code infor_log, Loại Info): Nhận thông báo khi nhập sai mật khẩu quá nhiều lần.
 ![Image](https://github.com/user-attachments/assets/4ab1b57e-5ace-4121-b9c9-64a33b7e6cba)
 <br>
 
