@@ -93,7 +93,7 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 * Thiết lập công tắc ảo Control Door để đóng mở cửa từ xa.
 * Bạn cần tạo các Datastreams tương ứng trên ứng dụng Blynk để điều khiển và giám sát cửa
 
-**Control Door**: Dùng cho điều khiển đóng/mở cửa.
+**Control Door**: Dùng cho điều khiển đóng/mở cửa.  
 **Control Pass**: Dùng để điều khiển việc cho phép và không cho phép nhập mật khẩu.
 
 ![Image](https://github.com/user-attachments/assets/fcbd7521-018a-412e-ab2a-13345259e6de)
@@ -101,7 +101,7 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 ### 4. Thiết lập Events & Notifications trên Blynk
 * Thiết lập để nhận thông báo khi cửa mở và khi nhập sai mật khẩu quá nhiều lần.
   
-**door_warning**: Nhận thông báo khi cửa mở.
+**door_warning**: Nhận thông báo khi cửa mở.  
 **infor_log**: Nhận thông báo khi nhập sai mật khẩu quá nhiều lần.
 
 ![Image](https://github.com/user-attachments/assets/4ab1b57e-5ace-4121-b9c9-64a33b7e6cba)
