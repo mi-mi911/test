@@ -98,7 +98,12 @@ Trong file `src/main.cpp` (hoặc một file cấu hình riêng), bạn cần th
 char ssid[] = "YOUR_WIFI_SSID";     // Tên mạng Wifi của bạn
 char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 ```
+### 3. Thiết lập Datastreams và Widgets trên ứng dụng Blynk
+Thiết lập công tắc ảo Control Pass để điều khiển việc cho phép và không cho phép nhập mật khẩu. Thiết lập công tắc ảo Control Door để đóng mở cửa từ xa.
+Bạn cần tạo các Datastreams và widget tương ứng trên ứng dụng Blynk để điều khiển và giám sát cửa:
 
+Control Door (ID 1, Pin V0, Kiểu Integer): Dùng cho điều khiển đóng/mở cửa (ví dụ: Button Widget).
+Control Pass (ID 2, Pin V1, Kiểu Integer): Dùng để điều khiển việc cho phép và không cho phép nhập mật khẩu.
 ![Image](https://github.com/user-attachments/assets/fcbd7521-018a-412e-ab2a-13345259e6de)
 
 
