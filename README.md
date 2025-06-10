@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/Vi%20%C4%91i%E1%BB%83u%20khi%E1%BB%83n-ESP32-blueviolet?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32 Badge">
     <img src="https://img.shields.io/badge/N%E1%BB%81n%20t%E1%BA%A3ng-Blynk-brightgreen?style=for-the-badge&logo=blynk&logoColor=white" alt="Blynk Badge">
     <img src="https://img.shields.io/badge/M%C3%B4i%20tr%C6%B0%E1%BB%9Dng-PlatformIO%20(VS%20Code)-orange?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="PlatformIO Badge">
-    <img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-Arduino%20C%2B%2B-blue?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino C++ Badge">
+    <img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge">
   </p>
 
   ---
@@ -17,7 +17,7 @@
     <a href="#📁-cấu-trúc-dự-án">Cấu trúc dự án</a> •
     <a href="#🛠️-hướng-dẫn-cài-đặt-và-sử-dụng">Hướng dẫn cài đặt và sử dụng</a> •
     <a href="#⚙️-cấu-hình-blynk">Cấu hình Blynk</a> •
-    <a href="#💡-tính- năng-chính">Tính năng chính</a> •
+    <a href="#💡-tính-năng-chính">Tính năng chính</a> •
     <a href="#🤝-đóng-góp">Đóng góp</a> •
     <a href="#📄-giấy-phép">Giấy phép</a>
   </p>
@@ -63,7 +63,7 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
     * Mở VS Code, đi tới phần Extensions (biểu tượng khối vuông ở thanh bên trái), tìm kiếm và cài đặt `PlatformIO IDE`.
 2.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn:
     ```bash
-    git clone https://github.com/your-username/ESP32_Smart_door.git
+    git clone [https://github.com/your-username/ESP32_Smart_door.git](https://github.com/your-username/ESP32_Smart_door.git)
     ```
 3.  **Mở dự án trong VS Code với PlatformIO:**
     * Trong VS Code, nhấp vào biểu tượng PlatformIO ở thanh bên trái.
@@ -89,6 +89,7 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 * Khi tạo thiết bị mới từ Template này, bạn sẽ nhận được một **Auth Token**.
 
 ### 2. Cập nhật thông tin vào mã nguồn
+Trước khi sử dụng, bạn cần làm theo các bước hướng dẫn sau. Nhập thông tin trên Blynk của bạn vào khoảng trống. Tiếp theo nhập tên và mật khẩu Wifi.
 Trong file `src/main.cpp` (hoặc một file cấu hình riêng), bạn cần thay thế các placeholder sau bằng thông tin của mình:
 
 ```cpp
