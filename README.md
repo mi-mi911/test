@@ -98,8 +98,9 @@ Trong file `src/main.cpp` (hoặc một file cấu hình riêng), bạn cần th
 char ssid[] = "YOUR_WIFI_SSID";     // Tên mạng Wifi của bạn
 char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 ```
-![Image](https://github.com/user-attachments/assets/f47b8b25-f32d-4013-9dcf-cafc0b704961)
-
+<div align="center">
+![Image](https://github.com/user-attachments/assets/fcbd7521-018a-412e-ab2a-13345259e6de)
+</div>
 
 💡 Tính năng chính
 * Điều khiển từ xa: Đóng/mở cửa thông qua ứng dụng Blynk.
