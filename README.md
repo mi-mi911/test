@@ -102,5 +102,5 @@ Trong file `src/main.cpp` (hoặc một file cấu hình riêng), bạn cần th
 char ssid[] = "YOUR_WIFI_SSID";     // Tên mạng Wifi của bạn
 char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 
-img src="data:image/png;base64,YOUR_BASE64_STRING_FOR_WIFI_CONFIG_CODE_IMAGE_HERE" alt="Cấu hình tên và mật khẩu Wifi">
-/div>
+<img src="data:image/png;base64,YOUR_BASE64_STRING_FOR_WIFI_CONFIG_CODE_IMAGE_HERE" alt="Cấu hình tên và mật khẩu Wifi">
+</div>
