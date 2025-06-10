@@ -6,7 +6,6 @@
   <p>
     <img src="https://img.shields.io/badge/Vi%20%C4%91i%E1%BB%83u%20khi%E1%BB%83n-ESP32-blueviolet?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32 Badge">
     <img src="https://img.shields.io/badge/N%E1%BB%81n%20t%E1%BA%A3ng-Blynk-brightgreen?style=for-the-badge&logo=blynk&logoColor=white" alt="Blynk Badge">
-    <img src="https://img.shields.io/badge/M%C3%B4i%20tr%C6%B0%E1%BB%9Dng-PlatformIO%20(VS%20Code)-orange?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="PlatformIO Badge">
     <img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-C%2B%2B-blue?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge">
   </p>
 
@@ -80,7 +79,8 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 * Khi tạo thiết bị mới từ Template này, bạn sẽ nhận được một **Auth Token**.
 
 ### 2. Cập nhật thông tin vào mã nguồn
-Trước khi sử dụng, bạn cần làm theo các bước hướng dẫn sau. Nhập thông tin trên Blynk của bạn vào khoảng trống. Tiếp theo nhập tên và mật khẩu Wifi.
+Trước khi sử dụng, bạn cần làm theo các bước hướng dẫn sau. 
++ Nhập thông tin trên Blynk của bạn vào khoảng trống. Tiếp theo nhập tên và mật khẩu Wifi.
 Trong file `src/main.cpp` (hoặc một file cấu hình riêng), bạn cần thay thế các placeholder sau bằng thông tin của mình:
 
 ```cpp
