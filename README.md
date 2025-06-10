@@ -1,7 +1,4 @@
 <div align="center">
-  <h1>🚪✨ Cửa thông minh dùng ESP32 và Blynk ✨🚪</h1>
-  <p>💡 Kho lưu trữ mã nguồn cho dự án cửa thông minh sử dụng vi điều khiển ESP32 và giao tiếp với nền tảng Blynk.</p>
-  <p>Kiểm soát và giám sát cửa nhà bạn từ xa một cách dễ dàng và tiện lợi.</p>
 
   <p>
     <img src="https://img.shields.io/badge/Vi%20%C4%91i%E1%BB%83u%20khi%E1%BB%83n-ESP32-blueviolet?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32 Badge">
@@ -114,3 +111,10 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 * Cảnh báo an ninh: Nhận cảnh báo khi có sự cố (ví dụ: cửa mở trái phép, nhập sai mật khẩu quá nhiều lần - nếu có tích hợp khóa số).
 * Kết nối Wifi: Sử dụng ESP32 để kết nối với mạng Wifi nhà bạn.
 &lt;br>
+
+---
+
+<div align="center">
+  <br>
+  <p>Cảm ơn bạn đã ghé thăm! Hy vọng repo này hữu ích cho việc học tập và nghiên cứu của bạn. 😊</p>
+  </div>
