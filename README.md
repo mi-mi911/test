@@ -79,10 +79,9 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 * Khi tạo thiết bị mới từ Template này, bạn sẽ nhận được một **Auth Token**.
 
 ### 2. Cập nhật thông tin vào mã nguồn
-Trước khi sử dụng, bạn cần làm theo các bước hướng dẫn sau. 
-+ Nhập thông tin trên Blynk của bạn vào khoảng trống. Tiếp theo nhập tên và mật khẩu Wifi.
-Trong file `src/main.cpp` (hoặc một file cấu hình riêng), bạn cần thay thế các placeholder sau bằng thông tin của mình:
-
+Trong file `src/main.cpp`, bạn cần thay thế các placeholder sau bằng thông tin của mình:
+* Nhập thông tin trên Blynk của bạn vào khoảng trống.
+* Tiếp theo nhập tên và mật khẩu Wifi.
 ```cpp
 #define BLYNK_TEMPLATE_ID "YOUR_BLYNK_TEMPLATE_ID"
 #define BLYNK_DEVICE_NAME "YOUR_BLYNK_TEMPLATE_NAME" // Tên thiết bị của bạn
@@ -93,18 +92,19 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 ```
 
 ### 3. Thiết lập Datastreams và Widgets trên ứng dụng Blynk
-Thiết lập công tắc ảo Control Pass để điều khiển việc cho phép và không cho phép nhập mật khẩu. Thiết lập công tắc ảo Control Door để đóng mở cửa từ xa.
-Bạn cần tạo các Datastreams và widget tương ứng trên ứng dụng Blynk để điều khiển và giám sát cửa:
+* Thiết lập công tắc ảo Control Pass để điều khiển việc cho phép và không cho phép nhập mật khẩu.
+* Thiết lập công tắc ảo Control Door để đóng mở cửa từ xa.
+* Bạn cần tạo các Datastreams tương ứng trên ứng dụng Blynk để điều khiển và giám sát cửa
 
-Control Door (ID 1, Pin V0, Kiểu Integer): Dùng cho điều khiển đóng/mở cửa (ví dụ: Button Widget).
-Control Pass (ID 2, Pin V1, Kiểu Integer): Dùng để điều khiển việc cho phép và không cho phép nhập mật khẩu.
+**Control Door**: Dùng cho điều khiển đóng/mở cửa.
+**Control Pass**: Dùng để điều khiển việc cho phép và không cho phép nhập mật khẩu.
 ![Image](https://github.com/user-attachments/assets/fcbd7521-018a-412e-ab2a-13345259e6de)
 
 ### 4. Thiết lập Events & Notifications trên Blynk
-Thiết lập để nhận thông báo khi cửa mở và khi nhập sai mật khẩu quá nhiều lần.
+* Thiết lập để nhận thông báo khi cửa mở và khi nhập sai mật khẩu quá nhiều lần.
   
-door_warning (ID 4, Code door_warning, Loại Warning): Nhận thông báo khi cửa mở.
-infor_log (ID 5, Code infor_log, Loại Info): Nhận thông báo khi nhập sai mật khẩu quá nhiều lần.
+**door_warning**: Nhận thông báo khi cửa mở.
+**infor_log**: Nhận thông báo khi nhập sai mật khẩu quá nhiều lần.
 ![Image](https://github.com/user-attachments/assets/4ab1b57e-5ace-4121-b9c9-64a33b7e6cba)
 <br>
 
