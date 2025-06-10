@@ -59,10 +59,9 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 3.  Mở dự án trong VS Code với PlatformIO
 4.  Cấu hình thông tin Blynk và Wifi (xem phần dưới).
 5.  Biên dịch và Upload mã nguồn
-6.  Kết nối phần cứng
+6.  Thiết lập ứng dụng Blynk
+7.  Kết nối phần cứng
    ![Image](https://github.com/user-attachments/assets/11b66dff-b35e-4c9a-ab23-a85c969d9280)
-7.  Thiết lập ứng dụng Blynk
-
 <br>
 
 ## ⚙️ Cấu hình Blynk
