@@ -51,10 +51,10 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 4.  **Ứng dụng Blynk (Android/iOS):** Để tạo giao diện điều khiển và giám sát.
 
 ### Yêu cầu phần cứng:
-* ESP32 Development Board
-* Module rơ le (Relay module)
-* Cảm biến từ (Reed switch) hoặc cảm biến cửa khác
-* Các dây jumper và breadboard (nếu cần)
+* ESP32
+* Servo SG90 (Mô phỏng cửa)
+* Ma trận phím 4x4
+* Breadboard, dây cắm hoặc vẽ PCB và hàn mạch
 
 ### Các bước cơ bản:
 
@@ -63,12 +63,12 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
     * Mở VS Code, đi tới phần Extensions (biểu tượng khối vuông ở thanh bên trái), tìm kiếm và cài đặt `PlatformIO IDE`.
 2.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn:
     ```bash
-    git clone [https://github.com/your-username/ESP32_Smart_door.git](https://github.com/your-username/ESP32_Smart_door.git)
+    git clone https://github.com/your-username/ESP32_Smart_door.git
     ```
 3.  **Mở dự án trong VS Code với PlatformIO:**
     * Trong VS Code, nhấp vào biểu tượng PlatformIO ở thanh bên trái.
     * Chọn "Open Project" và điều hướng đến thư mục `ESP32_Smart_door` mà bạn vừa clone/tải về.
-    * PlatformIO sẽ tự động cài đặt các dependencies (thư viện) được định nghĩa trong `platformio.ini`.
+    * PlatformIO sẽ tự động cài đặt các dependencies (thư viện) được định nghĩa trong `platformio.ini`, mở file src và vào main.c để chỉnh sửa code.
 4.  **Cấu hình thông tin Blynk và Wifi** (xem phần dưới).
 5.  **Biên dịch và Upload mã nguồn:**
     * Trong thanh công cụ PlatformIO ở dưới cùng của VS Code, nhấp vào biểu tượng "Build" (dấu tích) để biên dịch mã nguồn.
