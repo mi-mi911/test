@@ -4,8 +4,9 @@
   <p>Kiểm soát và giám sát cửa nhà bạn từ xa một cách dễ dàng và tiện lợi.</p>
 
   <p>
-    <img src="https://img.shields.io/badge/Vi%20%C4%91i%E1%BB%81u%20khi%E1%BB%83n-ESP32-blueviolet?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32 Badge">
+    <img src="https://img.shields.io/badge/Vi%20%C4%91i%E1%BB%83u%20khi%E1%BB%83n-ESP32-blueviolet?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32 Badge">
     <img src="https://img.shields.io/badge/N%E1%BB%81n%20t%E1%BA%A3ng-Blynk-brightgreen?style=for-the-badge&logo=blynk&logoColor=white" alt="Blynk Badge">
+    <img src="https://img.shields.io/badge/M%C3%B4i%20tr%C6%B0%E1%BB%9Dng-PlatformIO%20(VS%20Code)-orange?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="PlatformIO Badge">
     <img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-Arduino%20C%2B%2B-blue?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino C++ Badge">
   </p>
 
@@ -16,7 +17,7 @@
     <a href="#📁-cấu-trúc-dự-án">Cấu trúc dự án</a> •
     <a href="#🛠️-hướng-dẫn-cài-đặt-và-sử-dụng">Hướng dẫn cài đặt và sử dụng</a> •
     <a href="#⚙️-cấu-hình-blynk">Cấu hình Blynk</a> •
-    <a href="#💡-tính-năng-chính">Tính năng chính</a> •
+    <a href="#💡-tính- năng-chính">Tính năng chính</a> •
     <a href="#🤝-đóng-góp">Đóng góp</a> •
     <a href="#📄-giấy-phép">Giấy phép</a>
   </p>
@@ -36,7 +37,7 @@ Dự án này cung cấp một giải pháp hoàn chỉnh cho việc xây dựng
 
 ## 📁 Cấu trúc Dự án
 
-Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng tìm kiếm và phát triển:
+Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng tìm kiếm và phát triển. Cấu trúc này tuân theo tiêu chuẩn của PlatformIO:
 <br>
 
 ## 🛠️ Hướng dẫn cài đặt và sử dụng
@@ -44,9 +45,9 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 Để triển khai dự án này, bạn cần có các phần mềm và thành phần phần cứng sau:
 
 ### Yêu cầu phần mềm:
-1.  **Arduino IDE:** Để biên dịch và upload mã nguồn lên ESP32.
-2.  **Thư viện ESP32 Board trong Arduino IDE:** Cần cài đặt để lập trình cho ESP32.
-3.  **Thư viện Blynk:** Cần cài đặt trong Arduino IDE để giao tiếp với nền tảng Blynk.
+1.  **VS Code:** Môi trường phát triển tích hợp (IDE) khuyến nghị.
+2.  **PlatformIO IDE Extension:** Tiện ích mở rộng cần thiết cho VS Code để làm việc với PlatformIO.
+3.  **Tải thư viện Blynk:** PlatformIO sẽ tự động quản lý các thư viện dựa trên `platformio.ini`.
 4.  **Ứng dụng Blynk (Android/iOS):** Để tạo giao diện điều khiển và giám sát.
 
 ### Yêu cầu phần cứng:
@@ -57,17 +58,21 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 
 ### Các bước cơ bản:
 
-1.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn:
+1.  **Cài đặt VS Code và PlatformIO IDE Extension:**
+    * Tải xuống và cài đặt [Visual Studio Code](https://code.visualstudio.com/).
+    * Mở VS Code, đi tới phần Extensions (biểu tượng khối vuông ở thanh bên trái), tìm kiếm và cài đặt `PlatformIO IDE`.
+2.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn:
     ```bash
     git clone [https://github.com/your-username/ESP32_Smart_door.git](https://github.com/your-username/ESP32_Smart_door.git)
     ```
-2.  **Mở dự án trong Arduino IDE:** Mở file `main.ino` trong thư mục `src/`.
-3.  **Cài đặt các thư viện cần thiết:**
-    * Trong Arduino IDE, đi tới `Sketch > Include Library > Manage Libraries...`
-    * Tìm kiếm và cài đặt `Blynk by Volodymyr Shymanskyy`.
-    * Đảm bảo bạn đã cài đặt board ESP32 trong `Tools > Board > Boards Manager...`.
+3.  **Mở dự án trong VS Code với PlatformIO:**
+    * Trong VS Code, nhấp vào biểu tượng PlatformIO ở thanh bên trái.
+    * Chọn "Open Project" và điều hướng đến thư mục `ESP32_Smart_door` mà bạn vừa clone/tải về.
+    * PlatformIO sẽ tự động cài đặt các dependencies (thư viện) được định nghĩa trong `platformio.ini`.
 4.  **Cấu hình thông tin Blynk và Wifi** (xem phần dưới).
-5.  **Biên dịch và Upload mã nguồn** lên ESP32 của bạn.
+5.  **Biên dịch và Upload mã nguồn:**
+    * Trong thanh công cụ PlatformIO ở dưới cùng của VS Code, nhấp vào biểu tượng "Build" (dấu tích) để biên dịch mã nguồn.
+    * Sau khi biên dịch thành công, nhấp vào biểu tượng "Upload" (mũi tên phải) để tải chương trình lên ESP32 của bạn.
 6.  **Kết nối phần cứng** theo sơ đồ mạch (tham khảo thư mục `schematics/`).
 7.  **Thiết lập ứng dụng Blynk** trên điện thoại (xem phần dưới).
 
@@ -84,7 +89,7 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 * Khi tạo thiết bị mới từ Template này, bạn sẽ nhận được một **Auth Token**.
 
 ### 2. Cập nhật thông tin vào mã nguồn
-Trong file `main.ino` (hoặc một file cấu hình riêng), bạn cần thay thế các placeholder sau bằng thông tin của mình:
+Trong file `src/main.cpp` (hoặc một file cấu hình riêng), bạn cần thay thế các placeholder sau bằng thông tin của mình:
 
 ```cpp
 #define BLYNK_TEMPLATE_ID "YOUR_BLYNK_TEMPLATE_ID"
