@@ -98,7 +98,7 @@ Trong file `src/main.cpp` (hoặc một file cấu hình riêng), bạn cần th
 char ssid[] = "YOUR_WIFI_SSID";     // Tên mạng Wifi của bạn
 char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 ```
-
+![Image](https://github.com/user-attachments/assets/f47b8b25-f32d-4013-9dcf-cafc0b704961)
 
 
 💡 Tính năng chính
