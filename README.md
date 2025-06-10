@@ -51,16 +51,16 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 
 ### Các bước cơ bản:
 
-1.  Cài đặt VS Code và PlatformIO IDE Extension
-2.  Clone hoặc tải về
+* Cài đặt VS Code và PlatformIO IDE Extension
+* Clone hoặc tải về
     ```bash
     git clone https://github.com/your-username/ESP32_Smart_door.git
     ```
-3.  Mở dự án trong VS Code với PlatformIO
-4.  Cấu hình thông tin Blynk và Wifi (xem phần dưới).
-5.  Biên dịch và Upload mã nguồn
-6.  Thiết lập ứng dụng Blynk
-7.  Kết nối phần cứng
+* Mở dự án trong VS Code với PlatformIO
+* Cấu hình thông tin Blynk và Wifi (xem phần dưới).
+* Biên dịch và Upload mã nguồn
+* Thiết lập ứng dụng Blynk
+* Kết nối phần cứng
 
    ![Image](https://github.com/user-attachments/assets/11b66dff-b35e-4c9a-ab23-a85c969d9280)
 <br>
