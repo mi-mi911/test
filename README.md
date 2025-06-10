@@ -43,10 +43,9 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 Để triển khai dự án này, bạn cần có các phần mềm và thành phần phần cứng sau:
 
 ### Yêu cầu phần mềm:
-1.  **VS Code:** Môi trường phát triển tích hợp (IDE) khuyến nghị.
-2.  **PlatformIO IDE Extension:** Tiện ích mở rộng cần thiết cho VS Code để làm việc với PlatformIO.
-3.  **Tải thư viện Blynk:** PlatformIO sẽ tự động quản lý các thư viện dựa trên `platformio.ini`.
-4.  **Ứng dụng Blynk (Android/iOS):** Để tạo giao diện điều khiển và giám sát.
+** VS Code
+** PlatformIO IDE Extension
+** Ứng dụng Blynk (Android/iOS)
 
 ### Yêu cầu phần cứng:
 * ESP32
@@ -57,22 +56,15 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 ### Các bước cơ bản:
 
 1.  **Cài đặt VS Code và PlatformIO IDE Extension:**
-    * Tải xuống và cài đặt [Visual Studio Code](https://code.visualstudio.com/).
-    * Mở VS Code, đi tới phần Extensions (biểu tượng khối vuông ở thanh bên trái), tìm kiếm và cài đặt `PlatformIO IDE`.
-2.  **Clone hoặc tải về** kho lưu trữ này về máy tính của bạn:
+2.  **Clone hoặc tải về**
     ```bash
-    git clone [https://github.com/your-username/ESP32_Smart_door.git](https://github.com/your-username/ESP32_Smart_door.git)
+    git clone https://github.com/your-username/ESP32_Smart_door.git
     ```
 3.  **Mở dự án trong VS Code với PlatformIO:**
-    * Trong VS Code, nhấp vào biểu tượng PlatformIO ở thanh bên trái.
-    * Chọn "Open Project" và điều hướng đến thư mục `ESP32_Smart_door` mà bạn vừa clone/tải về.
-    * PlatformIO sẽ tự động cài đặt các dependencies (thư viện) được định nghĩa trong `platformio.ini`, mở file src và vào main.c để chỉnh sửa code.
 4.  **Cấu hình thông tin Blynk và Wifi** (xem phần dưới).
 5.  **Biên dịch và Upload mã nguồn:**
-    * Trong thanh công cụ PlatformIO ở dưới cùng của VS Code, nhấp vào biểu tượng "Build" (dấu tích) để biên dịch mã nguồn.
-    * Sau khi biên dịch thành công, nhấp vào biểu tượng "Upload" (mũi tên phải) để tải chương trình lên ESP32 của bạn.
-6.  **Kết nối phần cứng** theo sơ đồ mạch (tham khảo thư mục `schematics/`).
-7.  **Thiết lập ứng dụng Blynk** trên điện thoại (xem phần dưới).
+6.  **Kết nối phần cứng**
+7.  **Thiết lập ứng dụng Blynk**
 
 <br>
 
@@ -105,9 +97,10 @@ Bạn cần tạo các Datastreams và widget tương ứng trên ứng dụng B
 Control Door (ID 1, Pin V0, Kiểu Integer): Dùng cho điều khiển đóng/mở cửa (ví dụ: Button Widget).
 Control Pass (ID 2, Pin V1, Kiểu Integer): Dùng để điều khiển việc cho phép và không cho phép nhập mật khẩu.
 ![Image](https://github.com/user-attachments/assets/fcbd7521-018a-412e-ab2a-13345259e6de)
+<br>
 
 
-💡 Tính năng chính
+##💡 Tính năng chính
 * Điều khiển từ xa: Đóng/mở cửa thông qua ứng dụng Blynk.
 * Giám sát trạng thái: Nhận thông báo về trạng thái đóng/mở của cửa.
 * Cảnh báo an ninh: Nhận cảnh báo khi có sự cố (ví dụ: cửa mở trái phép, nhập sai mật khẩu quá nhiều lần - nếu có tích hợp khóa số).
