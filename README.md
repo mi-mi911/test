@@ -31,7 +31,7 @@ Dự án này cung cấp một giải pháp hoàn chỉnh cho việc xây dựng
 
 ## 📁 Cấu trúc Dự án
 
-Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng tìm kiếm và phát triển. Cấu trúc này tuân theo tiêu chuẩn của PlatformIO:
+Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng tìm kiếm và phát triển. Cấu trúc này tuân theo tiêu chuẩn của PlatformIO
 <br>
 
 ## 🛠️ Hướng dẫn cài đặt và sử dụng
@@ -61,6 +61,7 @@ Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng
 5.  Biên dịch và Upload mã nguồn
 6.  Thiết lập ứng dụng Blynk
 7.  Kết nối phần cứng
+
    ![Image](https://github.com/user-attachments/assets/11b66dff-b35e-4c9a-ab23-a85c969d9280)
 <br>
 
@@ -94,6 +95,7 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 
 **Control Door**: Dùng cho điều khiển đóng/mở cửa.
 **Control Pass**: Dùng để điều khiển việc cho phép và không cho phép nhập mật khẩu.
+
 ![Image](https://github.com/user-attachments/assets/fcbd7521-018a-412e-ab2a-13345259e6de)
 
 ### 4. Thiết lập Events & Notifications trên Blynk
@@ -101,6 +103,7 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
   
 **door_warning**: Nhận thông báo khi cửa mở.
 **infor_log**: Nhận thông báo khi nhập sai mật khẩu quá nhiều lần.
+
 ![Image](https://github.com/user-attachments/assets/4ab1b57e-5ace-4121-b9c9-64a33b7e6cba)
 <br>
 
