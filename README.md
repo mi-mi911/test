@@ -102,13 +102,6 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 ![Image](https://github.com/user-attachments/assets/4ab1b57e-5ace-4121-b9c9-64a33b7e6cba)
 <br>
 
-## 💡 Tính năng chính
-* Điều khiển từ xa: Đóng/mở cửa thông qua ứng dụng Blynk.
-* Giám sát trạng thái: Nhận thông báo về trạng thái đóng/mở của cửa.
-* Cảnh báo an ninh: Nhận cảnh báo khi có sự cố (ví dụ: cửa mở trái phép, nhập sai mật khẩu quá nhiều lần - nếu có tích hợp khóa số).
-* Kết nối Wifi: Sử dụng ESP32 để kết nối với mạng Wifi nhà bạn.
-<br>
-
 ## 🚩 Sản phẩm thực tế  
 ![Image](https://github.com/user-attachments/assets/4d81e4d7-fea2-4c3e-aadd-f5422bfd31a5)  
 
@@ -116,7 +109,7 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 
 ![Image](https://github.com/user-attachments/assets/1ec14359-2239-489c-9ed6-a1922a23d178)  
 
-![Video](https://youtu.be/4SuPDmZ4MYU)  
+<a href="Demo">https://youtu.be/4SuPDmZ4MYU</a>
 
 <br>
 
