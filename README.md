@@ -83,7 +83,7 @@ char ssid[] = "YOUR_WIFI_SSID";     // Tên mạng Wifi của bạn
 char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 ```
 
-### 3. Thiết lập Datastreams và Widgets trên ứng dụng Blynk
+### 3. Thiết lập Datastreams trên ứng dụng Blynk
 * Thiết lập công tắc ảo Control Pass để điều khiển việc cho phép và không cho phép nhập mật khẩu.
 * Thiết lập công tắc ảo Control Door để đóng mở cửa từ xa.
 * Bạn cần tạo các Datastreams tương ứng trên ứng dụng Blynk để điều khiển và giám sát cửa
@@ -115,6 +115,8 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 ![Image](https://github.com/user-attachments/assets/b90fe5ab-9323-43b3-8db6-f412df51777b)  
 
 ![Image](https://github.com/user-attachments/assets/1ec14359-2239-489c-9ed6-a1922a23d178)  
+
+![Video](https://youtu.be/4SuPDmZ4MYU)
 
 <br>
 
