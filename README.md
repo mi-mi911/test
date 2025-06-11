@@ -116,10 +116,7 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 
 ![Image](https://github.com/user-attachments/assets/1ec14359-2239-489c-9ed6-a1922a23d178)  
 
-<p align="center">
-  <a href="https://youtu.be/4SuPDmZ4MYU">
-  </a>
-</p>
+![Video](https://youtu.be/4SuPDmZ4MYU)  
 
 <br>
 
