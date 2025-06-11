@@ -103,14 +103,18 @@ char pass[] = "YOUR_WIFI_PASSWORD"; // Mật khẩu Wifi của bạn
 <br>
 
 ## 🚩 Sản phẩm thực tế  
+
+* Hình ảnh sản phẩm  
+  
 ![Image](https://github.com/user-attachments/assets/4d81e4d7-fea2-4c3e-aadd-f5422bfd31a5)  
 
 ![Image](https://github.com/user-attachments/assets/b90fe5ab-9323-43b3-8db6-f412df51777b)  
 
 ![Image](https://github.com/user-attachments/assets/1ec14359-2239-489c-9ed6-a1922a23d178)  
 
-[![Image](https://github.com/user-attachments/assets/3ac83cd1-7f86-4c51-a952-ec393e816f73)](https://youtu.be/4SuPDmZ4MYU)
+* Video chạy thử sản phẩm  
 
+[![Image](https://github.com/user-attachments/assets/3ac83cd1-7f86-4c51-a952-ec393e816f73)](https://youtu.be/4SuPDmZ4MYU)
 
 <br>
 
