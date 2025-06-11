@@ -10,10 +10,10 @@
 
   <p>
     <a href="#🚀-tổng-quan">Tổng quan</a> •
-    <a href="#📁-cấu-trúc-dự-án">Cấu trúc dự án</a> •
     <a href="#🛠️-hướng-dẫn-cài-đặt-và-sử-dụng">Hướng dẫn cài đặt và sử dụng</a> •
     <a href="#⚙️-cấu-hình-blynk">Cấu hình Blynk</a> •
-    <a href="#💡-tính-năng-chính">Tính năng chính</a>
+    <a href="#💡-tính-năng-chính">Tính năng chính</a> •
+    <a href="#🚩-sản-phẩm-thực-tế">Sản phẩm thực tế</a>
   </p>
 
   ---
@@ -27,11 +27,6 @@ Chào mừng bạn đến với kho lưu trữ **`ESP32_Smart_door`**!
 
 Dự án này cung cấp một giải pháp hoàn chỉnh cho việc xây dựng một hệ thống cửa thông minh, cho phép bạn điều khiển đóng/mở và giám sát trạng thái của cửa từ bất cứ đâu thông qua ứng dụng di động Blynk. Sử dụng vi điều khiển ESP32 mạnh mẽ, dự án này là sự kết hợp giữa phần cứng và phần mềm để mang lại sự tiện lợi và an toàn cho ngôi nhà của bạn.
 
-<br>
-
-## 📁 Cấu trúc Dự án
-
-Kho lưu trữ được tổ chức một cách rõ ràng để bạn dễ dàng tìm kiếm và phát triển. Cấu trúc này tuân theo tiêu chuẩn của PlatformIO
 <br>
 
 ## 🛠️ Hướng dẫn cài đặt và sử dụng
