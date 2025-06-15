@@ -53,11 +53,11 @@ Den_Giao_Thong_Nga_Tu/
 ## ⚙️ Chi tiết chức năng
 
 ```bash
-| Chế độ                   | Mô tả                                                                                                   |
-| ------------------------ | ------------------------------------------------------------------------------------------------------- |
-| **1 - Tự động**          | Đèn mỗi hướng luân phiên chuyển: đỏ → xanh → vàng. Có thời gian định sẵn (VD: Đỏ 5s, Xanh 5s, Vàng 2s). |
-| **2 - Điều khiển tay**   | Tất cả đèn tắt. Người dùng nhấn nút riêng biệt để bật/tắt đèn đỏ, vàng, xanh từng hướng.                |
-| **3 - Cảnh báo ban đêm** | Tất cả các đèn vàng ở 4 hướng chớp tắt liên tục (1Hz).                                                  |
+| Chế độ               | Mô tả                                                                                    |
+| -------------------- | ---------------------------------------------------------------------------------------- |
+| 1 - Tự động          | Đèn mỗi hướng luân phiên chuyển: đỏ → xanh → vàng. Có thời gian định sẵn.                |
+| 2 - Điều khiển tay   | Tất cả đèn tắt. Người dùng nhấn nút riêng biệt để bật/tắt đèn đỏ, vàng, xanh từng hướng. |
+| 3 - Cảnh báo ban đêm | Tất cả các đèn vàng ở 4 hướng chớp tắt liên tục (1Hz).                                   |
 ```
 <br>
 
@@ -84,3 +84,18 @@ git clone https://github.com/LucPac/Den_Giao_Thong_Nga_Tu.git
 4. Chọn chế độ và quan sát sự thay đổi trạng thái đèn trên Proteus.
 
 <br>
+
+## 🚩 Sản phẩm thực tế  
+
+* Hình ảnh mô phỏng
+
+![Screenshot (87)](https://github.com/user-attachments/assets/ab239cb8-e1cf-4113-8b71-a299691e1804)
+
+* Video mô phỏng
+
+---
+
+<div align="center">
+  <br>
+  <p>Cảm ơn bạn đã ghé thăm! Hy vọng repo này hữu ích cho việc học tập và nghiên cứu của bạn. 😊</p>
+  </div>
