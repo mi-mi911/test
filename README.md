@@ -40,24 +40,22 @@ Mỗi chế độ đều mô phỏng chính xác cách vận hành của đèn g
 ```bash
 Den_Giao_Thong_Nga_Tu/
 │
-├── Code/
-│   └── den_giao_thong.c       # Mã nguồn CCS C
-│
-├── Proteus/
-│   └── den_giao_thong.pdsprj  # File mô phỏng Proteus
-│
-└── README.md                  # Mô tả dự án
+├── Traffic_light.c          # Mã nguồn CCS C
+│          
+├── Traffic_light.pdsprj     # File mô phỏng Proteus
+│  
+└── README.md                # Mô tả dự án
 ```
 <br>
 
 ## ⚙️ Chi tiết chức năng
 
 ```bash
-| Chế độ               | Mô tả                                                                                    |
-| -------------------- | ---------------------------------------------------------------------------------------- |
-| 1 - Tự động          | Đèn mỗi hướng luân phiên chuyển: đỏ → xanh → vàng. Có thời gian định sẵn.                |
-| 2 - Điều khiển tay   | Tất cả đèn tắt. Người dùng nhấn nút riêng biệt để bật/tắt đèn đỏ, vàng, xanh từng hướng. |
-| 3 - Cảnh báo ban đêm | Tất cả các đèn vàng ở 4 hướng chớp tắt liên tục (1Hz).                                   |
+| Chế độ               | Mô tả                                                                      |
+| -------------------- | -------------------------------------------------------------------------- |
+| 1 - Tự động          | Đèn mỗi hướng luân phiên chuyển: đỏ → xanh → vàng. Có thời gian định sẵn.  |
+| 2 - Điều khiển tay   | Tất cả đèn tắt. Người dùng nhấn nút riêng biệt để bật/tắt đèn.             |
+| 3 - Cảnh báo ban đêm | Tất cả các đèn vàng ở 4 hướng chớp tắt liên tục.                           |
 ```
 <br>
 
@@ -77,9 +75,9 @@ Den_Giao_Thong_Nga_Tu/
 git clone https://github.com/LucPac/PIC16F887_Traffic_light.git
 ```
 
-2. Mở file **Traffic_light.c bằng CCS C để xem, sửa hoặc biên dịch mã nguồn.
+2. Mở file **Traffic_light.c** bằng CCS C để xem, sửa hoặc biên dịch mã nguồn.
 
-3. Mở file **Traffic_light.pdsprj bằng Proteus để mô phỏng mạch.
+3. Mở file **Traffic_light.pdsprj** bằng Proteus để mô phỏng mạch.
 
 4. Chọn chế độ và quan sát sự thay đổi trạng thái đèn trên Proteus.
 
