@@ -1,72 +1,50 @@
-&lt;div align="center">
-&lt;h1>🚦 Hệ Thống Đèn Giao Thông Ngã Tư (PIC16F887) 🚦&lt;/h1>
-&lt;p>💡 Dự án điều khiển đèn giao thông ngã tư với vi điều khiển PIC16F887, hỗ trợ 3 chế độ hoạt động linh hoạt.&lt;/p>
-&lt;p>Cung cấp mã nguồn và mô phỏng mạch Proteus.&lt;/p>
+<div align="center">
+  <h1>🚦 Đèn Giao Thông Ngã Tư - PIC16F887 🚦</h1>
+  <p>✨ Dự án mô phỏng hệ thống đèn giao thông ngã tư thông minh sử dụng vi điều khiển <strong>PIC16F887</strong>.</p>
+  <p>Hỗ trợ 3 chế độ hoạt động linh hoạt: tự động, điều khiển tay và cảnh báo ban đêm.</p>
 
-&lt;p>
-&lt;img src="https://img.shields.io/badge/Vi%20đi%E1%BB%81u%20khi%E1%BB%83n-PIC16F887-brightgreen?style=for-the-badge&amp;logo=microchip&amp;logoColor=white" alt="PIC16F887 Badge">
-&lt;img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-C-blue?style=for-the-badge&amp;logo=c&amp;logoColor=white" alt="C Badge">
-&lt;img src="https://img.shields.io/badge/M%C3%B4%20ph%E1%BB%8Fng-Proteus-orange?style=for-the-badge&amp;logo=proteus&amp;logoColor=white" alt="Proteus Badge">
-&lt;/p>
+  <p>
+    <img src="https://img.shields.io/badge/PIC16F887-Vi%20x%E1%BB%AD%20l%C3%BD-brightgreen?style=for-the-badge&logo=microchip&logoColor=white" alt="PIC16F887 Badge">
+    <img src="https://img.shields.io/badge/Ng%C3%B4n%20ng%E1%BB%AF-CCS%20C-blue?style=for-the-badge&logo=c&logoColor=white" alt="CCS C Badge">
+    <img src="https://img.shields.io/badge/M%C3%B4%20ph%E1%BB%8Fng-Proteus-orange?style=for-the-badge&logo=proteus&logoColor=white" alt="Proteus Badge">
+  </p>
 
-&lt;p>
-&lt;a href="#🚀-tổng-quan">Tổng quan&lt;/a> •
-&lt;a href="#✨-tính-năng-chính">Tính năng chính&lt;/a> •
-&lt;a href="#📁-cấu-trúc-dự-án">Cấu trúc dự án&lt;/a> •
-&lt;a href="#🛠️-hướng-dẫn-sử-dụng">Hướng dẫn sử dụng&lt;/a>
-&lt;/p>
+---
 
-&lt;/div>
+  <p>
+    <a href="#🚀-tổng-quan">Tổng quan</a> •
+    <a href="#📁-cấu-trúc-dự-án">Cấu trúc dự án</a> •
+    <a href="#🛠️-hướng-dẫn-sử-dụng">Hướng dẫn sử dụng</a> •
+    <a href="#⚙️-chi-tiết-chức-năng">Chi tiết chức năng</a>
+  </p>
 
-&lt;br>
+---
+</div>
 
-🚀 Tổng quan
-Chào mừng bạn đến với kho lưu trữ dự án Hệ thống Đèn Giao Thông Ngã Tư!
+<br>
 
-Dự án này tập trung vào việc phát triển một hệ thống điều khiển đèn giao thông cho ngã tư sử dụng vi điều khiển PIC16F887. Mục tiêu là tạo ra một giải pháp linh hoạt với các chế độ hoạt động khác nhau để tối ưu hóa việc điều tiết giao thông.
+## 🚀 Tổng quan
 
-Mỗi chế độ hoạt động đều được xây dựng với mã nguồn rõ ràng và có kèm theo file mô phỏng để dễ dàng kiểm tra và phát triển.
+Đây là mô phỏng hệ thống **đèn giao thông tại một ngã tư** sử dụng **vi điều khiển PIC16F887**. Hệ thống hỗ trợ **3 chế độ hoạt động** linh hoạt được lựa chọn thông qua nút nhấn hoặc công tắc.
 
-&lt;br>
+Mỗi chế độ đều mô phỏng chính xác cách vận hành của đèn giao thông thực tế:
 
-✨ Tính năng chính
-Hệ thống đèn giao thông này được trang bị 3 chế độ hoạt động chính:
+1. **Chế độ 1 - Tự động:** Đèn đỏ, vàng, xanh luân phiên theo chu kỳ.
+2. **Chế độ 2 - Điều khiển bằng tay:** Người dùng dùng nút nhấn để bật đèn thủ công.
+3. **Chế độ 3 - Cảnh báo ban đêm:** 4 đèn vàng chớp tắt liên tục để cảnh báo.
 
-Chế độ 1: Đèn chạy tự động (Automatic Mode)
+<br>
 
-Đây là chế độ mặc định. Đèn giao thông sẽ hoạt động tự động theo chu trình được lập trình sẵn, đảm bảo luồng giao thông ổn định tại ngã tư.
-Chế độ 2: Điều khiển bằng nút nhấn (Manual Control Mode)
+## 📁 Cấu trúc Dự án
 
-Trong chế độ này, tất cả các đèn giao thông sẽ tắt. Người dùng có thể sử dụng các nút nhấn để điều khiển từng tín hiệu đèn một cách thủ công, phù hợp cho các tình huống đặc biệt hoặc khẩn cấp.
-Chế độ 3: Cảnh báo ban đêm (Night Warning Mode)
-
-Chế độ này được thiết kế cho ban đêm hoặc khi lượng xe ít. Tất cả bốn đèn vàng tại ngã tư sẽ nhấp nháy liên tục, đóng vai trò như đèn cảnh báo, thu hút sự chú ý của người tham gia giao thông.
-&lt;br>
-
-📁 Cấu trúc Dự án
-Dự án được tổ chức một cách khoa học để dễ dàng quản lý và phát triển:
-
-Code/: Chứa các file mã nguồn .c (hoặc .h) cho vi điều khiển PIC16F887.
-Simulation/: Chứa các file mô phỏng Proteus (.pdsprj) cho mạch đèn giao thông.
-Documentation/: Có thể chứa sơ đồ khối, lưu đồ thuật toán, và các tài liệu kỹ thuật khác (nếu có).
-&lt;br>
-
-🛠️ Hướng dẫn Sử dụng
-Để xem và chạy dự án này, bạn cần cài đặt các phần mềm sau:
-
-Phần mềm lập trình: Có thể sử dụng MPLAB X IDE cùng với trình biên dịch XC8 (nếu code viết bằng C). Nếu bạn sử dụng CCS C, hãy cài đặt CCS C Compiler.
-Phần mềm mô phỏng Proteus ISIS (hoặc Proteus Design Suite): Dùng để mở và chạy các file mô phỏng mạch .pdsprj.
-Các bước cơ bản:
-
-Clone hoặc tải về kho lưu trữ này về máy tính của bạn:
-Bash
-
-git clone https://github.com/your-username/traffic-light-pic16f887.git
-(Thay your-username/traffic-light-pic16f887.git bằng đường dẫn repository của bạn)
-Mở thư mục dự án.
-Mở file .pdsprj bằng Proteus để xem sơ đồ mạch và bắt đầu mô phỏng.
-Mở file mã nguồn (.c) trong phần mềm lập trình tương ứng (MPLAB X IDE hoặc CCS C Compiler) để xem code, biên dịch lại và nạp vào PIC16F887 nếu cần.
-&lt;div align="center">
-&lt;br>
-&lt;p>Hy vọng dự án này sẽ hữu ích cho việc học tập và nghiên cứu của bạn! 😊&lt;/p>
-&lt;/div>
+```bash
+Den_Giao_Thong_Nga_Tu/
+│
+├── Code/
+│   └── den_giao_thong.c       # Mã nguồn CCS C
+│
+├── Proteus/
+│   └── den_giao_thong.pdsprj  # File mô phỏng Proteus
+│
+└── README.md                  # Mô tả dự án
+<br>
