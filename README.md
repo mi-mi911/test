@@ -74,12 +74,12 @@ Den_Giao_Thong_Nga_Tu/
 1. Tải về repo:
 
 ```bash
-git clone https://github.com/LucPac/Den_Giao_Thong_Nga_Tu.git
+git clone https://github.com/LucPac/PIC16F887_Traffic_light.git
 ```
 
-2. Mở thư mục Code/ bằng CCS C để xem, sửa hoặc biên dịch mã nguồn.
+2. Mở file **Traffic_light.c bằng CCS C để xem, sửa hoặc biên dịch mã nguồn.
 
-3. Mở file Proteus/den_giao_thong.pdsprj bằng Proteus để mô phỏng mạch.
+3. Mở file **Traffic_light.pdsprj bằng Proteus để mô phỏng mạch.
 
 4. Chọn chế độ và quan sát sự thay đổi trạng thái đèn trên Proteus.
 
