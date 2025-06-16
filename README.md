@@ -92,7 +92,11 @@ Video Demo
 
 [![image](https://github.com/user-attachments/assets/a3b1c62b-9412-4591-9d95-9bcef3d3614c)](https://www.youtube.com/watch?v=0sz0hhzup2c)
 
+<br>
 
+---
 
-
-<div align="center"> <br> <p>💚 Cảm ơn bạn đã ghé repo! Nếu bạn thấy dự án này hữu ích, hãy ⭐ và fork để phát triển thêm nhé!</p> </div> ```
+<div align="center">
+  <br>
+  <p>Cảm ơn bạn đã ghé thăm! Hy vọng repo này hữu ích cho việc học tập và nghiên cứu của bạn. 😊</p>
+  </div>
