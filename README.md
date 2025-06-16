@@ -47,10 +47,10 @@ Dự án này mô phỏng **hệ thống giám sát và điều khiển môi tr�
 1. Tải dự án:
    
 2. Mở thư mục bằng Arduino IDE hoặc PlatformIO và cấu hình:
-   ```bash
+   ````bash
 WiFi SSID & password
 Firebase host & token
-  ```
+  ````
 
 5. Nạp chương trình vào ESP32.
 
