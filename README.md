@@ -46,7 +46,7 @@ Dự án này mô phỏng **hệ thống giám sát và điều khiển môi tr�
 ### 📥 Các bước triển khai
 1. Tải dự án:
    
-   ```bash
+```bash
 git clone https://github.com/LucPac/ESP32_Dashboard_garden.git
 ```
    
