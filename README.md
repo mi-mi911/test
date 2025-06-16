@@ -46,17 +46,21 @@ Dự án này mô phỏng **hệ thống giám sát và điều khiển môi tr�
 ### 📥 Các bước triển khai
 1. Tải dự án:
    
-2. Mở thư mục bằng Arduino IDE hoặc PlatformIO và cấu hình:
    ```bash
-  WiFi SSID & password
+git clone https://github.com/LucPac/ESP32_Dashboard_garden.git
+```
+   
+2. Mở thư mục bằng Arduino IDE hoặc PlatformIO và cấu hình:
+
+  WiFi SSID & password  
+  
   Firebase host & token
-  ```
 
-5. Nạp chương trình vào ESP32.
+3. Nạp chương trình vào ESP32.
 
-6. Mở dashboard/index.html trên trình duyệt hoặc điện thoại để giám sát và điều khiển.
+4. Mở dashboard/index.html trên trình duyệt hoặc điện thoại để giám sát và điều khiển.
 
-7. Quan sát dữ liệu nhiệt độ, độ ẩm, ánh sáng hiển thị và kiểm soát thiết bị bằng nút.
+5. Quan sát dữ liệu nhiệt độ, độ ẩm, ánh sáng hiển thị và kiểm soát thiết bị bằng nút.
 
 <br>
 ⚙️ Chi tiết chức năng
