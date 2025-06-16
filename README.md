@@ -52,13 +52,13 @@ git clone https://github.com/LucPac/ESP32_Dashboard_garden.git
    
 2. Mở thư mục bằng Arduino IDE hoặc PlatformIO và cấu hình:
 
-  WiFi SSID & password  
+    WiFi SSID & password  
   
-  Firebase host & token
+    Firebase host & token
 
 3. Nạp chương trình vào ESP32.
 
-4. Mở dashboard/index.html trên trình duyệt hoặc điện thoại để giám sát và điều khiển.
+4. Mở index.html trên trình duyệt hoặc tải app tển điện thoại để giám sát và điều khiển.
 
 5. Quan sát dữ liệu nhiệt độ, độ ẩm, ánh sáng hiển thị và kiểm soát thiết bị bằng nút.
 
