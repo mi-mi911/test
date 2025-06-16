@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🌱 Hệ Thống Giám Sát & Điều Khiển Cây Trồng Thông Minh - ESP32 🌤️</h1>
+  <h1>🌱 Hệ Thống Giám Sát & Điều Khiển Vườn Thông Minh - ESP32 🌤️</h1>
   <p>✨ Dự án tích hợp cảm biến và điều khiển tự động hệ thống nông nghiệp nhỏ với <strong>ESP32</strong> và <strong>Dashboard + App điện thoại</strong>.</p>
   <p>Hệ thống có thể theo dõi <strong>nhiệt độ, độ ẩm, ánh sáng</strong> và điều khiển <strong>tưới cây, quạt tránh ẩm, mái che</strong> một cách thông minh.</p>
 
@@ -29,8 +29,7 @@ Dự án này mô phỏng **hệ thống giám sát và điều khiển môi tr�
 
 - **Đọc dữ liệu** từ cảm biến nhiệt độ, độ ẩm, và ánh sáng.
 - **Hiển thị thời gian thực** trên **dashboard web/app điện thoại** (Firebase).
-- **Tự động điều khiển** tưới cây, bật quạt, đóng/mở mái che dựa theo điều kiện cài đặt.
-- Cho phép **điều khiển thủ công** qua app từ xa.
+- **Điều khiển** tưới cây, bật quạt, đóng/mở mái che dựa theo điều kiện cài đặt.
 
 <br>
 
