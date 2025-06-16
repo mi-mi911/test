@@ -15,7 +15,7 @@
     <a href="#🚀-tổng-quan">Tổng quan</a> •
     <a href="#🛠️-hướng-dẫn-sử-dụng">Hướng dẫn sử dụng</a> •
     <a href="#⚙️-chi-tiết-chức-năng">Chi tiết chức năng</a> •
-    <a href="#📷-giao-diện-dashboard">Giao diện Dashboard</a>
+    <a href="#🚩-sản-phẩm-thực-tế">Sản phẩm thực tế</a>
   </p>
 
 ---
@@ -79,13 +79,21 @@ git clone https://github.com/LucPac/ESP32_Dashboard_garden.git
 
 <br>
 
-📷 Giao diện Dashboard
-🌤️ Màn hình giám sát
+## 🚩 Sản phẩm thực tế  
+
+Hình ảnh Dashboard
+
+![Screenshot (88)](https://github.com/user-attachments/assets/69fb3322-0883-4147-86d6-2e13d60fea53)
+
+Hình ảnh App
+
+![Screenshot_2025 06 16_21 40 53 810](https://github.com/user-attachments/assets/4e3e2b38-30c4-4426-9b80-3b8a2767c010)
+
+Video Demo
+
+[![image](https://github.com/user-attachments/assets/a3b1c62b-9412-4591-9d95-9bcef3d3614c)](https://www.youtube.com/watch?v=0sz0hhzup2c)
 
 
-📱 Giao diện trên điện thoại
 
-
-⚠️ Bạn có thể tùy chỉnh giao diện theo ý muốn bằng cách sửa file dashboard/index.html.
 
 <div align="center"> <br> <p>💚 Cảm ơn bạn đã ghé repo! Nếu bạn thấy dự án này hữu ích, hãy ⭐ và fork để phát triển thêm nhé!</p> </div> ```
