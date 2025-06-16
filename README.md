@@ -13,7 +13,6 @@
 
   <p>
     <a href="#🚀-tổng-quan">Tổng quan</a> •
-    <a href="#📁-cấu-trúc-dự-án">Cấu trúc dự án</a> •
     <a href="#🛠️-hướng-dẫn-sử-dụng">Hướng dẫn sử dụng</a> •
     <a href="#⚙️-chi-tiết-chức-năng">Chi tiết chức năng</a> •
     <a href="#📷-giao-diện-dashboard">Giao diện Dashboard</a>
@@ -35,43 +34,31 @@ Dự án này mô phỏng **hệ thống giám sát và điều khiển môi tr�
 
 <br>
 
-## 📁 Cấu trúc Dự án
+## 🛠️ Hướng dẫn Sử dụng
 
-```bash
-Smart_Plant_Monitoring/
-│
-├── src/
-│   └── main.cpp              # Code chính Arduino C++ cho ESP32
-│
-├── dashboard/
-│   ├── index.html            # Giao diện Dashboard giám sát
-│   └── script.js             # Kết nối Firebase và xử lý dữ liệu
-│
-├── firebase_config/          # File cấu hình Firebase (key, token, URL)
-│
-└── README.md                 # Mô tả dự án
-<br>
-🛠️ Hướng dẫn Sử dụng
-🔧 Yêu cầu phần mềm
-Arduino IDE / PlatformIO – Biên dịch và nạp mã nguồn vào ESP32.
+### 🔧 Yêu cầu phần mềm
+1. Arduino IDE / PlatformIO – Biên dịch và nạp mã nguồn vào ESP32.
 
-Firebase Realtime Database – Lưu trữ và đồng bộ dữ liệu giám sát.
+2. Firebase Realtime Database – Lưu trữ và đồng bộ dữ liệu giám sát.
 
-App điện thoại / Dashboard Web – Điều khiển từ xa.
+3. App điện thoại / Dashboard Web – Điều khiển từ xa.
 
-📥 Các bước triển khai
-Tải dự án:
-Mở thư mục src/main.cpp bằng Arduino IDE hoặc PlatformIO và cấu hình:
+### 📥 Các bước triển khai
+1. Tải dự án:
+   
+2. Mở thư mục bằng Arduino IDE hoặc PlatformIO và cấu hình:
+   ```bash
 
 WiFi SSID & password
 
 Firebase host & token
+```
 
-Nạp chương trình vào ESP32.
+5. Nạp chương trình vào ESP32.
 
-Mở dashboard/index.html trên trình duyệt hoặc điện thoại để giám sát và điều khiển.
+6. Mở dashboard/index.html trên trình duyệt hoặc điện thoại để giám sát và điều khiển.
 
-Quan sát dữ liệu nhiệt độ, độ ẩm, ánh sáng hiển thị và kiểm soát thiết bị bằng nút.
+7. Quan sát dữ liệu nhiệt độ, độ ẩm, ánh sáng hiển thị và kiểm soát thiết bị bằng nút.
 
 <br>
 ⚙️ Chi tiết chức năng
