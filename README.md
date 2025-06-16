@@ -63,16 +63,22 @@ git clone https://github.com/LucPac/ESP32_Dashboard_garden.git
 5. Quan sát dữ liệu nhiệt độ, độ ẩm, ánh sáng hiển thị và kiểm soát thiết bị bằng nút.
 
 <br>
-⚙️ Chi tiết chức năng
-| Thành phần        | Chức năng                                                    |
-|-------------------|--------------------------------------------------------------|
-| Nhiệt độ / Độ ẩm  | Đọc bằng cảm biến DHT11 / DHT22                              |
-| Ánh sáng          | Đọc bằng cảm biến quang trở / LDR                            |
-| Tưới cây          | Tự động bật khi độ ẩm dưới ngưỡng / Điều khiển từ app       |
-| Quạt thông gió    | Bật khi độ ẩm quá cao / Điều khiển thủ công                 |
-| Mái che           | Đóng/mở khi ánh sáng quá gắt hoặc theo lệnh người dùng       |
-| Dashboard Web/App | Hiển thị dữ liệu và gửi lệnh điều khiển (qua Firebase)      |
+
+## ⚙️ Chi tiết chức năng
+
+```bash
+| Thành phần        | Chức năng                                              |
+|-------------------|--------------------------------------------------------|
+| Nhiệt độ / Độ ẩm  | Đọc bằng cảm biến DHT11                                |
+| Ánh sáng          | Đọc bằng cảm biến quang trở / LDR                      |
+| Tưới cây          | Tự động bật khi độ ẩm dưới ngưỡng / Điều khiển từ app  |
+| Quạt thông gió    | Bật khi độ ẩm quá cao / Điều khiển thủ công            |
+| Mái che           | Đóng/mở khi ánh sáng quá gắt hoặc theo lệnh người dùng |
+| Dashboard Web/App | Hiển thị dữ liệu và gửi lệnh điều khiển (qua Firebase) |
+```
+
 <br>
+
 📷 Giao diện Dashboard
 🌤️ Màn hình giám sát
 
